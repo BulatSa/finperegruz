@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+    </style>
+  </defs>
+  <title>right</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Isolation_Mode" data-name="Isolation Mode">
+      <path class="cls-1" d="M1,6.94H13.09L9.35,10.39a.89.89,0,0,0,0,1.33,1.08,1.08,0,0,0,1.44,0L16,6.94,17,6l-1-.94L10.79.28a1.08,1.08,0,0,0-1.44,0,.89.89,0,0,0,0,1.33l3.75,3.45H1A1,1,0,0,0,0,6,1,1,0,0,0,1,6.94Z"/>
+    </g>
+  </g>
+</svg>
