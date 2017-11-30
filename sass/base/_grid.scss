@@ -37,6 +37,14 @@
 	position: relative;
 	padding-left: 16px;
 	padding-right: 16px;
+	@include res(l) {
+		padding-left: 14px;
+		padding-right: 14px;
+	}
+	@include res(s) {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
 }
 
 .row{

@@ -16,8 +16,16 @@
 	white-space: nowrap;
 	cursor: pointer;
 	user-select: none;
+	box-shadow: 0 3px 0px transparentize(#fcec00, 1);
 	background-color: #fcec00;
 	transition: all 0.3s ease;
+	@include res(l) {
+		padding: 16px 25px 14px;
+	}
+	&:hover {
+		box-shadow: 0 3px 0px darken(#fcec00, 12%);
+		transform: translate3d(0,-2px,0);
+	}
 	&:focus{
 		outline: none;
 	}
@@ -28,6 +36,9 @@
 		padding-left: $pad-l;
 		font-size: 12px;
 		vertical-align: middle;
+		@include res(l) {
+			padding-left: $pad-m;
+		}
 	}
 	&--white {
 		background: #fff;

@@ -19,7 +19,6 @@
 				</nav>
 				<a href="tel:84993468923" class="header-menu__tel">+7 (499) 346-89-23</a>
 			</div>
-			<a href="#" class="header-menu__burger"></a>
 		</div>
 	</div>
 </section>

@@ -22,6 +22,21 @@ h1,.h1 {
 	text-transform: uppercase;
 	letter-spacing: 0.150em;
 	line-height: 1.2;
+	@include res(xl) {
+		font-size: 68px;
+	}
+	@include res(l) {
+		font-size: 58px;
+	}
+	@include res(m) {
+		font-size: 48px;
+	}
+	@include res(s) {
+		font-size: 30px;
+	}
+	@include res(xs) {
+		font-size: 28px;
+	}
 }
 
 h2,.h2 {
