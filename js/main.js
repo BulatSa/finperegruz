@@ -158,15 +158,19 @@ $(document).ready(function(){
 
 
 /***********************
-Custom scrollbars BEGIN
+faq BEGIN
 ***********************/
-$(document).ready(function(){
-	$(".scroll").mCustomScrollbar({
-		axis:"y",
-		scrollInertia: 200,
-		scrollButtons:{ enable: true }
-	});
+$(function($){
+	$('.faq-item').on('click',function () {
+		var this_item = $(this);
+		var this_faq = this_item.parents('.faq');
+		var this_answer = this_item.find('.faq-item__answer');
+		this_faq.find('.faq-item').not(this_item).removeClass('active');
+		this_item.addClass('active');
+		this_faq.find('.faq-item__answer').not(this_answer).stop().slideUp();
+		this_answer.stop().slideDown();
+	})
 });
 /***********************
-Custom scrollbars END
+faq END
 ***********************/

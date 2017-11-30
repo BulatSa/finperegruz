@@ -1,0 +1,59 @@
+.s-how{
+	text-align: center;
+	background: url("../img/how/bg.jpg") center top no-repeat #1a191f;
+	color: #FFF;
+	padding: 90px 0 120px 0;
+	@include res(m){
+		padding: 50px 0;
+	}
+
+	.h2{
+		margin-bottom: 20px;
+	}
+
+	&__logo{
+		max-width: 100%;
+		height: auto;
+		margin-top: 90px;
+		@include res(l){
+			width: 373px;
+			height: auto;
+		}
+		@include res(m){
+			margin-top: 30px;
+		}
+	}
+}
+
+.how-items{
+	margin-top: 20px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	@include res(xs){
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.how-item{
+	width: 220px;
+	padding: 0 10px;
+	@include res(xs){
+		margin-bottom: 20px;
+	}
+
+	header{
+		height: 65px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		margin-bottom: 15px;
+	}
+
+	p{
+		@include res(m){
+			font-size: 14px;
+		}
+	}
+}

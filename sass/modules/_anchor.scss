@@ -1,0 +1,41 @@
+.anchor{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	top: -50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 20;
+	color: $gold;
+	overflow: hidden;
+	transition: color 0.3s ease;
+	@include res(m){
+		height: 50px;
+		top: -25px;
+	}
+
+	&:hover{
+		color: lighten($gold,15%);
+	}
+
+	figure{
+		display: block;
+		width: 2px;
+		height: 100%;
+		overflow: hidden;
+		background: currentcolor;
+		animation: anchor infinite 1.6s ease;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@keyframes anchor {
+	0%{
+		transform: translate3d(0,-100%,0);
+	}
+	100%{
+		transform: translate3d(0,100%,0);
+	}
+}

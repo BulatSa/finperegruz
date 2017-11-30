@@ -3,7 +3,6 @@
 @import 'helpers/placeholders';
 
 @import 'vendors/fancybox';
-@import 'vendors/scrollbar';
 
 @import 'base/reset';
 @import 'base/fonts';
@@ -17,5 +16,10 @@
 @import 'modules/modals';
 @import 'modules/header';
 @import 'modules/cases';
+@import 'modules/anchor';
+@import 'modules/faq';
 
 @import 'pages/home';
+@import 'pages/s-faq';
+@import 'pages/s-levels';
+@import 'pages/s-how';
