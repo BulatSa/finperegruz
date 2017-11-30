@@ -118,4 +118,173 @@
 </section>
 
 
+<section class="s-faq" id="s-faq">
+
+	<a href="#s-faq" class="anchor scrollto">
+		<figure></figure>
+	</a>
+
+	<div class="container">
+		<div class="row">
+			<div class="grid-6  grid-12_m s-faq__left">
+				<p class="h5">топ-8 вопросов, влияющих на доходы</p>
+				<p class="h2">наши доходы зависят от типа мышления</p>
+
+				<div class="faq">
+					<div class="faq-item">
+						<header class="faq-item__question">Тратите деньги слишком быстро</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Крупные траты застают врасплох</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Мечтаете расплатиться по кредитам</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Ваши расходы превышают доходы</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Постоянно думаете о деньгах</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Завидуете богатым</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Хотите зарабатывать больше</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Устали от всего этого</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+				</div>
+
+			</div>
+			<div class="grid-6 grid-12_m">
+				<img src="/img/faq/men.jpg" alt="men" class="faq-men">
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<section class="s-levels">
+	<div class="container">
+		<header class="s-levels__head">
+			<p class="h5">пошаговая программа обучения, повышающая ваш доход</p>
+			<p class="h2">4-х уровневый курс</p>
+			<p class="s-levels__subtitle">Каждая уровень помогать вам эффективно осваивать финансовую грамотность, нарабывать навыки мышления миллионера, выполненяя домашнее задание. Каждый уровень включает в себя предыдущий.</p>
+		</header>
+
+
+		<main class="levels">
+			<div class="level row">
+				<div class="gridlevel__left">
+					<p class="h5">1 уровень</p>
+					<p class="h3">Финансовая Безопасность</p>
+					<ul>
+						<li>Вы избавитесь от финансового ступора</li>
+						<li>Сможете сдвинуться с мертвой точки</li>
+						<li>Сделаете деньги на ровном месте</li>
+						<li>Избавитесь от финансовых дыр</li>
+						<li>Начнете копить и откладывать</li>
+					</ul>
+					<a href="#" class="btn">Хочу на этот уровень<i class="i-right"></i></a>
+				</div>
+			</div>
+		</main>
+
+
+	</div>
+</section>
+
+
+<section class="s-how">
+	<div class="container">
+		<p class="h5">как будет проходить курс</p>
+		<p class="h2">особенность обучения</p>
+		<p>Каждый уровень обучения будет включать в себя:</p>
+
+		<div class="how-items">
+			<div class="how-item">
+				<header>
+					<img src="/img/how/how-1.svg" alt="1" width="64" height="44">
+				</header>
+				<p>онлайн личный кабинет</p>
+			</div>
+			<div class="how-item">
+				<header>
+					<img src="/img/how/how-2.svg" alt="1" width="62" height="62">
+				</header>
+				<p>2 занятия в неделю с&nbsp;домашним заданием</p>
+			</div>
+			<div class="how-item">
+				<header>
+					<img src="/img/how/how-3.svg" alt="1" width="45" height="64">
+				</header>
+				<p>специальные шаблоны и&nbsp;раздаточные материалы</p>
+			</div>
+		</div>
+
+		<img src="/img/how/logo.png" alt="11" class="s-how__logo">
+	</div>
+</section>
+
+
+<section class="s-faq s-faq--white" id="s-faq-2">
+
+	<a href="#s-faq-2" class="anchor scrollto">
+		<figure></figure>
+	</a>
+
+	<div class="container">
+		<div class="row">
+			<div class="grid-6  grid-12_m s-faq__left">
+				<p class="h5">для кого</p>
+				<p class="h2">курс подойдет вам если:</p>
+
+				<div class="faq faq--white">
+					<div class="faq-item">
+						<header class="faq-item__question">Хотите досрочно закрыть ипотеку</header>
+						<main class="faq-item__answer">Мы научим вас рефинансировать ипотеку, пересмотреть выплаты и как можно сэкономить на закрытие ипотеки.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Планируете самостоятельно и быстро заработать на квартиру</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Стремитесь повысить доход и закрыть базовые финансовые потребности</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">У вас есть цель дать детям образование за границей</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Мечтаете несколько раз в год отдыхать за рубежом</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+					<div class="faq-item">
+						<header class="faq-item__question">Понимаете, что остро нуждаетесь в подушке безопасности</header>
+						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+					</div>
+				</div>
+
+			</div>
+			<div class="grid-6 grid-12_m">
+				<img src="/img/faq/men-white.jpg" alt="men" class="faq-men">
+			</div>
+		</div>
+		<img src="/img/coin.png" alt="11" class="s-faq__coin">
+	</div>
+
+</section>
+
 <?php include('footer.php'); ?>
