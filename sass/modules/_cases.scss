@@ -74,3 +74,14 @@
 	margin-right: $pad-s;
 	text-align: center;
 }
+
+.cases__benefit-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+	margin-bottom: $pad-xxs;
+	img {
+		flex-shrink: 0;
+	}
+}
