@@ -2,6 +2,17 @@
 	padding-top: $pad-xl;
 	padding-bottom: $pad-xl;
 	background: #eceeed;
+	@include res(l) {
+		padding-top: $pad-l;
+		padding-bottom: $pad-l;
+	}
+	@include res(m) {
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+	}
+	@include res(s) {
+		padding-bottom: $pad-s;
+	}
 }
 
 .cases {}
@@ -12,10 +23,20 @@
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	flex-wrap: wrap;
+	@include res(s) {
+		margin-left: -$pad-xxs;
+		margin-right: -$pad-xxs;
+	}
+	@include res(xs) {
+		padding-bottom: $pad-xxs;
+	}
 }
 
 .cases__facts-title {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 	width: 100%;
 	padding-bottom: $pad-xs;
 	font-size: 14px;
@@ -23,6 +44,9 @@
 	font-weight: bold;
 	letter-spacing: 0.15em;
 	text-align: center;
+	@include res(s) {
+		padding-bottom: $pad-xxs;
+	}
 }
 
 .cases__fact {
@@ -31,6 +55,23 @@
 	margin-left: $pad-m;
 	padding-bottom: $pad-l;
 	text-align: center;
+	@include res(l) {
+		width: 33.33333%;
+		max-width: initial;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: $pad-s;
+		padding-right: $pad-s;
+		padding-bottom: $pad-m;
+	}
+	@include res(s) {
+		padding-left: $pad-xxs;
+		padding-right: $pad-xxs;
+	}
+	@include res(xs) {
+		width: 50%;
+		padding-bottom: $pad-xs;
+	}
 	span {
 		display: block;
 		padding-bottom: 5px;
@@ -38,16 +79,47 @@
 		font-weight: bold;
 		font-family: $font-head;
 		letter-spacing: 0.15em;
+		@include res(xl) {
+			font-size: 54px;
+		}
+		@include res(l) {
+			padding-bottom: 0;
+			font-size: 48px;
+		}
+		@include res(m) {
+			font-size: 38px;
+		}
+		@include res(s) {
+			font-size: 28px;
+		}
 		em {
 			display: inline-block;
 			//padding-left: $pad-xxs;
 			font-size: 36px;
 			font-style: normal;
+			@include res(xl) {
+				font-size: 34px;
+			}
+			@include res(l) {
+				font-size: 30px;
+			}
+			@include res(m) {
+				font-size: 22px;
+			}
+			@include res(s) {
+				font-size: 18px;
+			}
 		}
 	}
 	p {
 		font-size: 16px;
 		line-height: 1.3;
+		@include res(l) {
+			font-size: 14px;
+		}
+		@include res(s) {
+			font-size: 12px;
+		}
 	}
 }
 
@@ -57,6 +129,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	flex-wrap: wrap;
+	@include res(s) {
+		margin-left: -$pad-xxs;
+		margin-right: -$pad-xxs;
+	}
 }
 
 .cases__benefits-title {
@@ -66,13 +143,40 @@
 	text-align: center;
 	font-size: 18px;
 	line-height: 1.3;
+	@include res(l) {
+		font-size: 16px;
+		padding-bottom: $pad-s;
+	}
+	@include res(m) {
+		padding-bottom: $pad-xs;
+	}
+	@include res(s) {
+		padding-bottom: $pad-xxs;
+		font-size: 14px;
+	}
 }
 
 .cases__benefit {
-	max-width: 200px;
-	margin-left: $pad-s;
-	margin-right: $pad-s;
+	width: 25%;
+	padding-left: $pad-s;
+	padding-right: $pad-s;
 	text-align: center;
+	@include res(m) {
+		padding-left: $pad-xxs;
+		padding-right: $pad-xxs;
+	}
+	@include res(s) {
+		max-width: initial;
+		width: 50%;
+		padding-bottom: $pad-xs;
+	}
+	p {
+		font-size: 16px;
+		line-height: 1.3;
+		@include res(l) {
+			font-size: 14px;
+		}
+	}
 }
 
 .cases__benefit-img {
@@ -81,6 +185,9 @@
 	justify-content: center;
 	height: 70px;
 	margin-bottom: $pad-xxs;
+	@include res(l) {
+		height: 60px;
+	}
 	img {
 		flex-shrink: 0;
 	}

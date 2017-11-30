@@ -8,6 +8,11 @@
 		background-position: 50% 50%;
 		background-size: auto 100%;
 	}
+	@include res(s) {
+		min-height: 560px;
+		padding-bottom: $pad-s;
+		background-position: 55% 50%;
+	}
 }
 
 .header {
@@ -38,6 +43,10 @@
 	max-width: 750px;
 	padding-top: $pad-l;
 	padding-bottom: $pad-l;
+	@include res(s) {
+		padding-top: 0;
+		padding-bottom: $pad-s;
+	}
 	span {
 		display: inline-block;
 		padding-bottom: $pad-xxs;
@@ -45,6 +54,9 @@
 		font-size: 14px;
 		font-weight: bold;
 		letter-spacing: 0.15em;
+		@include res(s) {
+			font-size: 12px;
+		}
 	}
 	h1 {
 		padding-bottom: $pad-xxs;
@@ -53,38 +65,114 @@
 	p {
 		font-size: 18px;
 		line-height: 26/18;
+		@include res(s) {
+			font-size: 14px;
+		}
 	}
 }
 
 .header__info-contact {
 	display: flex;
 	align-items: center;
+	@include res(s) {
+		flex-wrap: wrap;
+	}
 	p {
 		padding-left: $pad-m;
 		font-size: 36px;
+		@include res(l) {
+			font-size: 34px;
+		}
+		@include res(m) {
+			font-size: 30px;
+		}
+		@include res(s) {
+			width: 100%;
+			padding-left: 0;
+			font-size: 24px;
+		}
 	}
 	span {
 		display: block;
 		font-size: 18px;
+		@include res(m) {
+			font-size: 16px;
+		}
+	}
+	.btn {
+		@include res(s) {
+			margin-bottom: $pad-s;
+		}
 	}
 }
 
 .header__video {
-	padding-top: $pad-xl;
+	padding-top: $pad-l;
 	text-align: right;
+	@include res(m) {
+		display: none;
+	}
+	@include res(s) {
+		padding-top: $pad-s;
+	}
 	p {
 		font-size: 16px;
 		line-height: 1.3;
+		@include res(s) {
+			font-size: 14px;
+		}
 	}
 	span {
 		display: block;
 		font-size: 12px;
 	}
 	a {
-		display: inline-block;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
 		width: 90px;
 		height: 90px;
+		margin-top: $pad-s;
+		border-radius: 50%;
+		font-size: 30px;
+		color: #000;
 		background: #fff;
+		@include res(xl) {
+			width: 80px;
+			height: 80px;
+			font-size: 28px;
+		}
+		@include res(l) {
+			width: 70px;
+			height: 70px;
+			margin-top: $pad-xs;
+			font-size: 26px;
+		}
+		@include res(m) {
+			margin-top: 0;
+			margin-left: $pad-s;
+		}
+		@include res(s) {
+			width: 50px;
+			height: 50px;
+			margin-left: $pad-xs;
+			font-size: 18px;
+		}
+		i {
+			display: inline-block;
+			margin-left: 10px;
+			@include res(xl) {
+				margin-left: 7px;
+			}
+		}
+	}
+	&--tablet {
+		display: none;
+		text-align: left;
+		@include res(m) {
+			display: flex;
+			align-items: center;
+		}
 	}
 }
 

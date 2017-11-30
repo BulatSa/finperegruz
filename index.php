@@ -26,7 +26,7 @@
 <section class="header-sec">
 	<div class="header container">
 		<div class="row">
-			<div class="grid-8">
+			<div class="grid-8 grid-9_m grid-12_s">
 				<div class="header__info">
 					<div class="header__info-medals">
 						<img src="img/medal-1.png" alt="">
@@ -44,12 +44,17 @@
 						<a href="#" class="btn">Принять участие<i class="i-right"></i></a>
 						<p><span>Старт 2-го потока</span>14 декабря</p>
 					</div>
+
+					<div class="header__video header__video--tablet">
+						<p>Видео-обращение<br>Максима Темченко<span>00:37</span></p>
+						<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&autoplay=1&rel=0&controls=0&showinfo=0" class="fancy"><i class="i-arrow-play"></i></a>
+					</div>
 				</div>
 			</div>
 			<div class="grid-4">
 				<div class="header__video">
 					<p>Видео-обращение<br>Максима Темченко<span>00:37</span></p>
-					<a href="#"><i class="i-play"></i></a>
+					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&autoplay=1&rel=0&controls=0&showinfo=0" class="fancy"><i class="i-arrow-play"></i></a>
 				</div>
 			</div>
 		</div>
