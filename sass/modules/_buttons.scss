@@ -23,9 +23,9 @@
 	@include res(l) {
 		padding: 16px 25px 14px;
 	}
-	@include res(xs){
-		font-size: 12px;
+	@include res(s) {
 		padding: 14px 20px 12px;
+		font-size: 12px;
 	}
 
 	&:hover,&:focus {
@@ -50,6 +50,11 @@
 		vertical-align: middle;
 		@include res(l) {
 			padding-left: $pad-m;
+		}
+		@include res(s) {
+			top: -1px;
+			padding-left: $pad-xs;
+			font-size: 10px;
 		}
 	}
 
