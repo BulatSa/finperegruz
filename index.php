@@ -188,28 +188,140 @@
 
 <section class="s-levels">
 	<div class="container">
+
 		<header class="s-levels__head">
 			<p class="h5">пошаговая программа обучения, повышающая ваш доход</p>
 			<p class="h2">4-х уровневый курс</p>
-			<p class="s-levels__subtitle">Каждая уровень помогать вам эффективно осваивать финансовую грамотность, нарабывать навыки мышления миллионера, выполненяя домашнее задание. Каждый уровень включает в себя предыдущий.</p>
+			<p class="s-levels__subtitle">Каждый уровень помогать вам эффективно осваивать финансовую грамотность, нарабывать навыки мышления миллионера, выполненяя домашнее задание. Каждый уровень включает в себя предыдущий.</p>
 		</header>
 
 
 		<main class="levels">
+
+			<div class="levels-line"></div>
+
 			<div class="level row">
-				<div class="gridlevel__left">
-					<p class="h5">1 уровень</p>
-					<p class="h3">Финансовая Безопасность</p>
-					<ul>
-						<li>Вы избавитесь от финансового ступора</li>
-						<li>Сможете сдвинуться с мертвой точки</li>
-						<li>Сделаете деньги на ровном месте</li>
-						<li>Избавитесь от финансовых дыр</li>
-						<li>Начнете копить и откладывать</li>
-					</ul>
-					<a href="#" class="btn">Хочу на этот уровень<i class="i-right"></i></a>
+				<div class="grid-6 grid-12_m">
+					<div class="level__left">
+						<p class="h5">1 уровень</p>
+						<p class="h3 level__title">Финансовая Безопасность</p>
+						<ul class="checked-list">
+							<li>Вы избавитесь от финансового ступора</li>
+							<li>Сможете сдвинуться с мертвой точки</li>
+							<li>Сделаете деньги на ровном месте</li>
+							<li>Избавитесь от финансовых дыр</li>
+							<li>Начнете копить и откладывать</li>
+						</ul>
+						<div class="level-prices">
+							<p class="h5">Стоимость</p>
+							<span class="level-price">16 970<span class="rub">&#x20bd;</span></span>
+							<span class="level-price-old">19 970<span class="rub">&#x20bd;</span></span>
+						</div>
+						<a href="#" class="btn fancy" data-src="#modal-order">Хочу на этот уровень<i class="i-right"></i></a>
+					</div>
 				</div>
+				<div class="grid-6 grid-12_m level__right">
+					<img src="/img/levels/level-1.jpg" alt="1" class="level__img">
+					<a href="#" class="btn btn--outline">Программа 1 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
+				</div>
+				<img src="/img/coin.png" alt="c" class="level__coin">
 			</div>
+
+			<div class="level row">
+				<div class="grid-6 grid-12_m">
+					<div class="level__left">
+						<p class="h5">2 уровень</p>
+						<p class="h3 level__title">Финансовая стабильность</p>
+						<ul class="checked-list">
+							<li>Вы станете финансово уверенным</li>
+							<li>Начнете повышать свои доходы</li>
+							<li>Начнете инвестировать</li>
+							<li>Возьмете под полный контроль расходы</li>
+							<li>Увеличите доходность текущих источников</li>
+							<li>Создадите новые источники доходов с нуля</li>
+							<li>Станете предпринимателем и создать свой бизнес с нуля</li>
+							<li>Создадите финансовое будущее (пенсия+страховка)</li>
+							<li>Сделаете первые шаги в инвестировании</li>
+							<li>Получите понимание куда и как идти дальше</li>
+						</ul>
+						<div class="level-prices">
+							<p class="h5">Стоимость</p>
+							<span class="level-price">29 970<span class="rub">&#x20bd;</span></span>
+							<span class="level-price-old">34 970<span class="rub">&#x20bd;</span></span>
+							<p class="level-prices__descr">Включает в себя предыдущий уровень</p>
+						</div>
+						<a href="#" class="btn fancy" data-src="#modal-order">Хочу на этот уровень<i class="i-right"></i></a>
+					</div>
+				</div>
+				<div class="grid-6 grid-12_m level__right">
+					<img src="/img/levels/level-2.jpg" alt="1" class="level__img">
+					<a href="#" class="btn btn--outline">Программа 2 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
+				</div>
+				<img src="/img/coin.png" alt="c" class="level__coin">
+			</div>
+
+			<div class="level row">
+				<div class="grid-6 grid-12_m">
+					<div class="level__left">
+						<p class="h5">3 уровень</p>
+						<p class="h3 level__title">Финансовая независимость</p>
+						<ul class="checked-list">
+							<li>Начнете развивать позицию собственника бизнеса</li>
+							<li>Станете инвестором (позволить себе получать пассивный доход)</li>
+							<li>Начнете формировать долгосрочный капитал</li>
+							<li>Выйдите на пассивный доход</li>
+							<li>Начнете грамотно инвестировать</li>
+							<li>Станете управлять бизнесом (а не предприятием)</li>
+							<li>Сможете меньше работать, больше зарабатывать</li>
+						</ul>
+						<div class="level-prices">
+							<p class="h5">Стоимость</p>
+							<span class="level-price">49 970<span class="rub">&#x20bd;</span></span>
+							<span class="level-price-old">59 970<span class="rub">&#x20bd;</span></span>
+							<p class="level-prices__descr">Включает в себя предыдущие уровни</p>
+						</div>
+						<a href="#" class="btn fancy" data-src="#modal-order">Хочу на этот уровень<i class="i-right"></i></a>
+					</div>
+				</div>
+				<div class="grid-6 grid-12_m level__right">
+					<img src="/img/levels/level-3.jpg" alt="1" class="level__img">
+					<a href="#" class="btn btn--outline">Программа 3 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
+				</div>
+				<img src="/img/coin.png" alt="c" class="level__coin">
+			</div>
+
+			<div class="level row">
+				<div class="grid-6 grid-12_m">
+					<div class="level__left">
+						<p class="h5">4 уровень</p>
+						<p class="h3 level__title">Финансовая свобода</p>
+						<ul class="checked-list">
+							<li>Вы сможете грамотно управлять инвестициями</li>
+							<li>Выстроить личную финансовую стратегию</li>
+							<li>Стать капиталистом</li>
+							<li>Обрести устойчивость к кризису</li>
+							<li>Масштабировать бизнес и отойти от дел в компании</li>
+							<li>Покупать время других людей</li>
+							<li>Привлекать и использовать ресурсы других людей</li>
+							<li>Быстрее иметь то, что хочется</li>
+							<li>Выстроить долгосрочную стратегию инвестиций, понимая экономические циклы</li>
+						</ul>
+						<div class="level-prices">
+							<p class="h5">Стоимость</p>
+							<span class="level-price">169 970<span class="rub">&#x20bd;</span></span>
+							<span class="level-price-old">199 970<span class="rub">&#x20bd;</span></span>
+							<p class="level-prices__descr">Включает в себя предыдущие уровни</p>
+						</div>
+						<a href="#" class="btn fancy" data-src="#modal-order">Хочу на этот уровень<i class="i-right"></i></a>
+					</div>
+				</div>
+				<div class="grid-6 grid-12_m level__right">
+					<img src="/img/levels/level-4.jpg" alt="1" class="level__img">
+					<a href="#" class="btn btn--outline">Программа 4 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
+				</div>
+				<img src="/img/coin.png" alt="c" class="level__coin">
+			</div>
+
 		</main>
 
 
