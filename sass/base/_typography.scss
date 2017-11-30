@@ -84,6 +84,17 @@ h3,.h3{
 	}
 }
 
+h4,.h4{
+	font-size: 18px;
+	font-family: $font-head;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	@include res(xs){
+		font-size: 16px;
+	}
+}
+
 h5,.h5{
 	font-size: 14px;
 	font-family: $font-head;
