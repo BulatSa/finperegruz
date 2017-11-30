@@ -2,14 +2,15 @@
 	min-height: 100vh;
 	padding-top: $pad-xl;
 	background: url('../img/bg-head-xl.jpg') no-repeat center center;
+	@include res(l) {
+		padding-top: 0;
+	}
 }
 
 .header {
 	color: #fff;
 	letter-spacing: 0.15em;
 }
-
-.header__menu-logo {}
 
 .header__info {
 	padding-top: $pad-l;
@@ -68,8 +69,11 @@
 	position: fixed;
 	top: $pad-xs;
 	width: 100%;
-
 	z-index: 1;
+	@include res(l) {
+		position: relative;
+		top: 0;
+	}
 }
 
 .header-menu {
@@ -77,22 +81,75 @@
 	align-items: center;
 	justify-content: space-between;
 	color: #fff;
+	font-size: 12px;
 	letter-spacing: 0.15em;
 }
 
+.header-menu__logo {
+	width: 15%;
+}
+
+.header-menu__sub {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 85%;
+	white-space: nowrap;
+	@include res(l) {
+		position: fixed;
+		top: 0;
+		right: 0;
+		display: block;
+		width: 50%;
+		height: 100%;
+		padding-top: $pad-l;
+		padding-left: 12px;
+		padding-right: 12px;
+		text-align: right;
+		background: transparentize(#000, 0.4);
+	}
+}
+
+.header-menu__burger {
+	display: none;
+	@include res(l) {
+		position: fixed;
+		top: 0;
+		right: 0;
+		display: block;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: $link-hover;
+	}
+}
+
 .header-menu__nav {
+	padding-right: 3%;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 12px;
+	@include res(l) {
+		padding-right: 0;
+		font-size: 14px;
+	}
 	ul {
 		display: flex;
 		align-items: center;
+		flex-wrap: wrap;
+		@include res(l) {
+			justify-content: flex-end;
+		}
 	}
 	a {
 		display: inline-block;
 		padding-left: 12px;
 		padding-right: 12px;
 		transition: all 0.3s ease;
+		@include res(l) {
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
 		&:hover {
 			color: $link-hover;
 		}
@@ -101,4 +158,10 @@
 
 .header-menu__tel {
 	font-weight: bold;
+	@include res(l) {
+		display: inline-block;
+		margin-top: $pad-xxs;
+		padding-left: 12px;
+		padding-right: 12px;
+	}
 }

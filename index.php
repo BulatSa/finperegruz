@@ -2,25 +2,24 @@
 
 <section class="header-menu-sec">
 	<div class="container">
-		<div class="row">
-			<div class="grid-12">
-				<div class="header-menu">
-					<a href="#" class="header-menu__logo">
-						<img src="img/logo-top.png" alt="Финансовая перезагрузка">
-					</a>
-					<nav class="header-menu__nav">
-						<ul>
-							<li><a href="#">Программа</a></li>
-							<li><a href="#">для кого</a></li>
-							<li><a href="#">Калькулятор</a></li>
-							<li><a href="#">it платформа</a></li>
-							<li><a href="#">отзывы</a></li>
-							<li><a href="#">О Тренере</a></li>
-						</ul>
-					</nav>
-					<a href="tel:84993468923" class="header-menu__tel">+7 (499) 346-89-23</a>
-				</div>
+		<div class="header-menu">
+			<a href="#" class="header-menu__logo">
+				<img src="img/logo-top.png" alt="Финансовая перезагрузка">
+			</a>
+			<div class="header-menu__sub">
+				<nav class="header-menu__nav">
+					<ul>
+						<li><a href="#">Программа</a></li>
+						<li><a href="#">для кого</a></li>
+						<li><a href="#">Калькулятор</a></li>
+						<li><a href="#">it платформа</a></li>
+						<li><a href="#">отзывы</a></li>
+						<li><a href="#">О Тренере</a></li>
+					</ul>
+				</nav>
+				<a href="tel:84993468923" class="header-menu__tel">+7 (499) 346-89-23</a>
 			</div>
+			<a href="#" class="header-menu__burger"></a>
 		</div>
 	</div>
 </section>
@@ -90,22 +89,30 @@
 					<p class="cases__benefits-title">Выпускники курса Финансовой перезагрузки достигают не только в финансовых результатов, но и выводят другие области жизни на новый уровень: </p>
 					<div class="cases__benefits">
 						<div class="cases__benefit">
-							<img src="" alt="">
+							<div class="cases__benefit-img">
+								<img src="img/icons/cases-couple.svg" alt="">
+							</div>
 							<p>8,7% улучшили ситуации
 								в сфере отношений</p>
 						</div>
 						<div class="cases__benefit">
-							<img src="" alt="">
+							<div class="cases__benefit-img">
+								<img src="img/icons/cases-clock.svg" alt="">
+							</div>
 							<p>8,7% стали эффективнее
 								в управлении временем</p>
 						</div>
 						<div class="cases__benefit">
-							<img src="" alt="">
+							<div class="cases__benefit-img">
+								<img src="img/icons/cases-hands.svg" alt="">
+							</div>
 							<p>6.5% сделали мощный скачок
 								в бизнесе/карьере</p>
 						</div>
 						<div class="cases__benefit">
-							<img src="" alt="">
+							<div class="cases__benefit-img">
+								<img src="img/icons/cases-heart.svg" alt="">
+							</div>
 							<p>2.2% улучшили свое
 								здоровье</p>
 						</div>
