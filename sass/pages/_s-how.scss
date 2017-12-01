@@ -26,11 +26,12 @@
 }
 
 .how-items{
-	margin-top: 20px;
+	margin-top: 40px;
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-around;
 	@include res(xs){
+		margin-top: 20px;
 		flex-direction: column;
 		align-items: center;
 	}
