@@ -19,6 +19,7 @@ ul {
 }
 
 h1,.h1 {
+	display: block;
 	font-size: 72px;
 	font-family: $font-head;
 	font-weight: bold;
@@ -43,6 +44,7 @@ h1,.h1 {
 }
 
 h2,.h2 {
+	display: block;
 	font-size: 48px;
 	font-family: $font-head;
 	font-weight: bold;
@@ -64,6 +66,7 @@ h2,.h2 {
 }
 
 h3,.h3{
+	display: block;
 	font-size: 36px;
 	font-family: $font-head;
 	font-weight: bold;

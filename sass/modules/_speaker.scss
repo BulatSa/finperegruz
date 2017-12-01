@@ -1,0 +1,143 @@
+.speaker-sec {
+	padding-top: $pad-l;
+	padding-bottom: $pad-l;
+	background: url('../img/speaker/bg-speaker.jpg') no-repeat top center;
+	@include res(l) {
+		background-size: auto 100%;
+	}
+	@include res(m) {
+		background-position: 42% 50%;
+	}
+	@include res(s) {
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+		background-size: 100% 100%;
+		background: url('../img/how/bg.jpg') top center no-repeat #1a191f;
+	}
+}
+
+.speaker {
+	color: #fff;
+}
+
+.speaker__title {
+	padding-bottom: $pad-m;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	@include res(s) {
+		padding-bottom: $pad-s;
+	}
+	@include res(xs) {
+		padding-bottom: $pad-xs;
+	}
+}
+
+.speaker__facts {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	@include res(xs) {
+		flex-wrap: wrap;
+		padding-bottom: $pad-xxs;
+	}
+}
+
+.speaker__fact {
+	width: 33.33333%;
+	padding-right: $pad-s;
+	padding-bottom: $pad-m;
+	@include res(s) {
+		padding-bottom: $pad-s;
+		padding-right: $pad-xs;
+	}
+	@include res(xs) {
+		width: 100%;
+		padding-right: 0;
+		padding-bottom: $pad-xs;
+	}
+	&:last-child {
+		padding-right: 0;
+	}
+	span {
+		letter-spacing: 0;
+		text-transform: none;
+	}
+	p {
+		font-size: 16px;
+		line-height: 1.6;
+		@include res(l) {
+			font-size: 14px;
+		}
+		@include res(s) {
+			line-height: 1.4;
+		}
+	}
+}
+
+.speaker__info {
+	max-width: 520px;
+	font-size: 16px;
+	line-height: 1.6;
+	@include res(s) {
+		font-size: 14px;
+	}
+	p {
+		display: flex;
+		align-items: center;
+		padding-bottom: $pad-xxs;
+	}
+	span {
+		display: inline-block;
+	}
+}
+
+.speaker__info-img {
+	display: block;
+	width: 55px;
+	vertical-align: middle;
+	flex-shrink: 0;
+	@include res(l) {
+		width: 45px;
+	}
+	@include res(xs) {
+		width: 40px;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		@include res(l) {
+			transform: scale(0.9);
+		}
+		@include res(xs) {
+			transform: scale(0.8);
+		}
+	}
+}
+
+.speaker__contact {
+	position: relative;
+	max-width: 550px;
+	padding-top: $pad-m;
+	@include res(l) {
+		max-width: 500px;
+	}
+	@include res(s) {
+		padding-top: $pad-xxs;
+	}
+	img {
+		position: absolute;
+		top: 0;
+		right: 0;
+		@include res(s) {
+			display: none;
+		}
+	}
+	.btn {
+		margin-top: $pad-s;
+		@include res(xs) {
+			margin-top: $pad-xs;
+		}
+	}
+}

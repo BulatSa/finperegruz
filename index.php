@@ -659,4 +659,48 @@
 </section>
 
 
+<section class="speaker-sec">
+	<div class="speaker container">
+		<div class="row">
+			<div class="grid-8 grid-9_l grid-12_s">
+				<p class="speaker__title">
+					спикер
+					<span class="h2">максим темченко</span>
+				</p>
+				<div class="speaker__facts">
+					<div class="speaker__fact">
+						<span class="h3">10 000 +</span>
+						<p>часов живых тренингов проведено в России и за рубежом</p>
+					</div>
+					<div class="speaker__fact">
+						<span class="h3">4 книги</span>
+						<p>в том числе бестселлера «Финансовые Сверх&shy;возможности»</p>
+					</div>
+					<div class="speaker__fact">
+						<span class="h3">40 000 +</span>
+						<p>человек обучил финансовой грамотности по всему миру</p>
+					</div>
+				</div>
+				<div class="speaker__info">
+					<p><span class="speaker__info-img"><img src="img/speaker/certificat.svg" alt=""></span><span>Сертифицированный коуч, психолог со специализацией в финансовой тематике.</span></p>
+					<p><span class="speaker__info-img"><img src="img/speaker/airplane.svg" alt=""></span><span>Проводил выездные тренинги и вебинары в РФ и за рубежом.</span></p>
+					<p><span class="speaker__info-img"><img src="img/speaker/money-man.svg" alt=""></span><span>Ученик Роберта Кийосаки (США-2010, 2012, Эстония-2015), Брайана Трейси (2013), Энтони Роббинс (2015).</span></p>
+					<p><span class="speaker__info-img"><img src="img/speaker/money-shield.svg" alt=""></span><span>Автор, ведущий тренер и создатель международной франшизы Курса личных финансов «Клуб Миллионеров».</span></p>
+					<p><span class="speaker__info-img"><img src="img/speaker/man-statistic.svg" alt=""></span><span>Преподаватель курсов «Личные финансы», «Личная эффективность» для программ MBA.</span></p>
+					<p><span class="speaker__info-img"><img src="img/speaker/column.svg" alt=""></span><span>Эксперт-консультант Министерства Образования по теме «Личные Финансы».</span></p>
+					<p><span class="speaker__info-img"><img src="img/speaker/extra.svg" alt=""></span><span>Автор и ведущий тренингов «Сверхвозможности», «Сверхрезультат».</span></p>
+					<p><span class="speaker__info-img"><img src="img/speaker/television.svg" alt=""></span><span>Участник многочисленных ТВ и радиопередач.</span></p>
+					<p><span class="speaker__info-img"><img src="img/speaker/cup.svg" alt=""></span><span>Обладатель правительственной награды «ТОП-Филантроп»  за благотворительные тренинги.</span></p>
+				</div>
+				<div class="speaker__contact">
+					<img src="img/speaker/sign.png" alt="">
+					<p>Нашел путь к финансовой свободе<br>и помогу отыскать эту дорогу вам!</p>
+					<a href="#" class="btn">стать учеником<i class="i-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>
