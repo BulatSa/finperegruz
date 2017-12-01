@@ -754,24 +754,25 @@
 				<p class="h5 review__name">Юлия Катасонова</p>
 				<div class="review__frame review__frame--video">
 					<img src="/img/reviews/1.jpg" alt="1">
-					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
+					<a href="https://www.youtube.com/watch?v=jgM28NvLQEM&amp;autoplay=1&amp;rel=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
 				</div>
 				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи. Страха больше нет, у меня нет страха. Сейчас я - миллионер, у меня есть возможность помогать своим родителям. У меня есть 3 источника дохода, и они все дают плоды.</div>
 			</div>
 			<div class="review">
-				<p class="h5 review__name">Юлия Катасонова</p>
+				<p class="h5 review__name">Сергей Троцкий</p>
 				<div class="review__frame review__frame--video">
-					<img src="/img/reviews/1.jpg" alt="1">
-					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
+					<img src="/img/reviews/2.jpg" alt="1">
+					<a href="https://www.youtube.com/watch?v=Mpc_YWXWKG4&amp;autoplay=1&amp;rel=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
 				</div>
-				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи.</div>
+				<div class="review__text">В 5 раз увеличил свой доход. Неожиданно начали появляться и другие источники дохода. Месячный доход - 350 тысяч, с бонусами порядка пятиста и подкрадывается к миллиону рублей в месяц. Я позволил себе мечтать. И под эти мечты появились возможности. С удовольствием инвестирую в себя и свою семью.</div>
 			</div>
 			<div class="review">
-				<p class="h5 review__name">Юлия Катасонова</p>
-				<div class="review__frame">
-					<img src="/img/reviews/1.jpg" alt="1">
+				<p class="h5 review__name">Егор Щербаков</p>
+				<div class="review__frame review__frame--video">
+					<img src="/img/reviews/3.jpg" alt="1">
+					<a href="https://www.youtube.com/watch?v=8U5aGsdRXAM&amp;autoplay=1&amp;rel=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
 				</div>
-				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще!</div>
+				<div class="review__text">От ночного санитара до дохода 270000 руб. в месяц. Сейчас я живу в своей мечте. Прежде всего мы повысили качество продукта, заказов стало больше, мы увеличили чек. Наши доходы выросли и я наконец-то начал инвестировать и создавать деньги… Я увеличил свой доход в 3 раза за год, планирую бизнес в Америке.!</div>
 			</div>
 		</div>
 	</div>
