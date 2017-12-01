@@ -830,4 +830,85 @@
 </section>
 
 
+<section class="stars-sec">
+	<div class="stars container">
+		<div class="row">
+			<div class="grid-3 grid-4_m grid-6_s">
+				<div class="stars__item">
+					<img src="img/stars/item-1.jpg" alt="">
+					<div class="stars__item-info">
+						<p>Первый семинар с Энтони Роббинсом.<br><br>
+							Апрель, 2016 год </p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-4_m grid-6_s">
+				<div class="stars__item">
+					<img src="img/stars/item-2.jpg" alt="">
+					<div class="stars__item-info">
+						<p>Первый семинар с Энтони Роббинсом.<br><br>
+							Апрель, 2016 год </p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-4_m grid-6_s">
+				<div class="stars__item">
+					<img src="img/stars/item-3.jpg" alt="">
+					<div class="stars__item-info">
+						<p>Первый семинар с Энтони Роббинсом.<br><br>
+							Апрель, 2016 год </p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-4_m grid-6_s">
+				<div class="stars__item">
+					<img src="img/stars/item-4.jpg" alt="">
+					<div class="stars__item-info">
+						<p>Первый семинар с Энтони Роббинсом.<br><br>
+							Апрель, 2016 год </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid-3 grid-4_m grid-6_s">
+				<div class="stars__item">
+					<img src="img/stars/item-5.jpg" alt="">
+					<div class="stars__item-info">
+						<p>Первый семинар с Энтони Роббинсом.<br><br>
+							Апрель, 2016 год </p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-4_m grid-6_s">
+				<div class="stars__item">
+					<img src="img/stars/item-6.jpg" alt="">
+					<div class="stars__item-info">
+						<p>Первый семинар с Энтони Роббинсом.<br><br>
+							Апрель, 2016 год </p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-4_m grid-6_s">
+				<div class="stars__item">
+					<img src="img/stars/item-7.jpg" alt="">
+					<div class="stars__item-info">
+						<p>Первый семинар с Энтони Роббинсом.<br><br>
+							Апрель, 2016 год </p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-4_m grid-6_s">
+				<div class="stars__item">
+					<img src="img/stars/item-7.jpg" alt="">
+					<div class="stars__item-info">
+						<p>Первый семинар с Энтони Роббинсом.<br><br>
+							Апрель, 2016 год </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>
