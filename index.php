@@ -1,20 +1,20 @@
 ﻿<?php include('header.php'); ?>
 
-<section class="header-menu-sec">
+<section class="header-menu-sec compensate-for-scrollbar">
 	<div class="container">
 		<div class="header-menu">
-			<a href="#" class="header-menu__logo">
+			<a href="#header-sec" class="header-menu__logo scrollto">
 				<img src="img/logo-top.png" alt="Финансовая перезагрузка">
 			</a>
 			<div class="header-menu__sub">
 				<nav class="header-menu__nav">
 					<ul>
-						<li><a href="#">Программа</a></li>
-						<li><a href="#">для кого</a></li>
-						<li><a href="#">Калькулятор</a></li>
-						<li><a href="#">it платформа</a></li>
-						<li><a href="#">отзывы</a></li>
-						<li><a href="#">О Тренере</a></li>
+						<li><a href="#s-levels" class="scrollto">Программа</a></li>
+						<li><a href="#s-faq-2" class="scrollto">для кого</a></li>
+<!--						<li><a href="#" class="scrollto">Калькулятор</a></li>-->
+						<li><a href="#s-preims" class="scrollto">it платформа</a></li>
+						<li><a href="#s-reviews" class="scrollto">отзывы</a></li>
+						<li><a href="#speaker-sec" class="scrollto">О Тренере</a></li>
 					</ul>
 				</nav>
 				<a href="tel:84993468923" class="header-menu__tel">+7 (499) 346-89-23</a>
@@ -23,7 +23,7 @@
 	</div>
 </section>
 
-<section class="header-sec">
+<section class="header-sec" id="header-sec">
 	<div class="header container">
 		<div class="row">
 			<div class="grid-8 grid-9_m grid-12_s">
@@ -41,7 +41,7 @@
 						<p>Научитесь мыслить как миллионер, создавать капитал с нуля и&nbsp;получать пассивный доход.</p>
 					</div>
 					<div class="header__info-contact">
-						<a href="#" class="btn">Принять участие<i class="i-right"></i></a>
+						<a href="#" class="btn fancy" data-src="#modal-order">Принять участие<i class="i-right"></i></a>
 						<p><span>Старт 2-го потока</span>14 декабря</p>
 					</div>
 
@@ -186,7 +186,12 @@
 </section>
 
 
-<section class="s-levels">
+<section class="s-levels" id="s-levels">
+
+	<a href="#s-levels" class="anchor scrollto">
+		<figure></figure>
+	</a>
+
 	<div class="container">
 
 		<header class="s-levels__head">
@@ -786,7 +791,7 @@
 </section>
 
 
-<section class="speaker-sec">
+<section class="speaker-sec" id="speaker-sec">
 	<div class="speaker container">
 		<div class="row">
 			<div class="grid-8 grid-9_l grid-12_s">
@@ -822,7 +827,7 @@
 				<div class="speaker__contact">
 					<img src="img/speaker/sign.png" alt="">
 					<p>Нашел путь к финансовой свободе<br>и помогу отыскать эту дорогу вам!</p>
-					<a href="#" class="btn">стать учеником<i class="i-right"></i></a>
+					<a href="#" class="btn fancy" data-src="#modal-order">стать учеником<i class="i-right"></i></a>
 				</div>
 			</div>
 		</div>
