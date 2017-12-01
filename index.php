@@ -42,7 +42,7 @@
 					</div>
 					<div class="header__info-contact">
 						<a href="#" class="btn fancy" data-src="#modal-order">Принять участие<i class="i-right"></i></a>
-						<p><span>Старт 2-го потока</span>14 декабря</p>
+						<p><span>Старт 2-го потока</span>8 января</p>
 					</div>
 
 					<div class="header__video header__video--tablet">
