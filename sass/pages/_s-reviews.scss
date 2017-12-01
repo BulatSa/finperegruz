@@ -1,19 +1,43 @@
 .s-reviews{
 	background: #FFF;
 	padding: 100px 0;
+	@include res(s){
+		padding: 50px 0;
+	}
 }
 
 .reviews-intro{
 	position: absolute;
 	width:  calc(100% / 12 * 5);
-	padding-right: 10px;
+	pointer-events: none;
+	z-index: 2;
+	@include res(m){
+		padding-right: 30px;
+	}
+	@include res(s){
+		position: relative;
+		padding-right: 0;
+		width: 100%;
+	}
 
 	.h2{
 		margin-bottom: 0.7em;
+		@include res(l){
+			font-size: 30px;
+		}
+		@include res(m){
+			font-size: 24px;
+		}
 	}
 
 	&__descr{
 		font-size: 18px;
+		@include res(xl){
+			font-size: 16px;
+		}
+		@include res(m){
+			font-size: 14px;
+		}
 	}
 }
 
@@ -26,8 +50,55 @@
 	}
 
 	&__wrapper{
-		padding-left: calc(50%);
+		padding-left: calc(50% - 50px);
 		overflow: hidden;
+		position: relative;
+		z-index: 1;
+		@include res(s){
+			padding: 70px 16px 0 16px;
+		}
+	}
+
+	.flickity-prev-next-button{
+		left: -150px;
+		top: 340px;
+		right: initial;
+		@include res(xl){
+			top: 284px;
+		}
+		@include res(s){
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: -60px;
+		}
+
+		&.previous{
+			transform: translate(-54px,0);
+		}
+		&.next{
+			transform: translate(54px,0);
+		}
+	}
+}
+
+.reviews-slider-counter{
+	position: absolute;
+	top: 357px;
+	left: -140px;
+	color: $gold;
+	font-weight: bold;
+	font-size: 16px;
+	width: 40px;
+	text-align: center;
+	@include res(xl){
+		top: 300px;
+	}
+	@include res(s){
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: -44px;
 	}
 }
 
@@ -35,9 +106,40 @@
 	width: 480px;
 	margin: 0 20px;
 	transition: opacity 0.3s ease;
+	opacity: 1;
+	@include res(xl){
+		width: 400px;
+	}
+	@include res(s){
+		width: 288px;
+		opacity: 1;
+		margin: 0 10px;
+	}
 
 	&.past{
 		opacity: 0.1;
+		@include res(s){
+			opacity: 1;
+		}
+	}
+
+	&.is-selected{
+		opacity: 1;
+
+		.review__frame{
+			&:after{
+				opacity: 0.3;
+			}
+		}
+
+		.review__play{
+			opacity: 1;
+			transform: none;
+		}
+		
+		.review__text{
+			color: #000;
+		}
 	}
 
 	&__name{
@@ -47,6 +149,9 @@
 	&__frame{
 		position: relative;
 		margin-bottom: 30px;
+		@include res(xl){
+			margin-bottom: 15px;
+		}
 
 		img{
 			display: block;
@@ -66,7 +171,8 @@
 				top: 0;
 				z-index: 2;
 				background: #1a191f;
-				opacity: 0.3;
+				opacity: 0.8;
+				transition: opacity 0.3s ease;
 			}
 		}
 	}
@@ -86,7 +192,9 @@
 		justify-content: center;
 		background: #FFF;
 		border-radius: 50%;
-		transition: background 0.3s ease,box-shadow 0.3s ease;
+		transition: background 0.3s ease,box-shadow 0.3s ease,transform 0.8s ease,opacity 0.3s ease;
+		opacity: 0;
+		transform: scale3d(0.4,0.4,1);
 
 		i{
 			margin-left: 4px;
@@ -98,5 +206,53 @@
 			box-shadow: 0 1px 6px 0 rgba(0,0,0,0.5);
 		}
 	}
+
+	&__text{
+		color: #b5b7b6;
+		transition: color 0.3s ease;
+		@include res(xl){
+			font-size: 14px;
+		}
+	}
 }
 //reviews-slider
+
+.flickity-prev-next-button{
+	background: transparent;
+	width: 54px;
+	height: 54px;
+
+	&:hover{
+		background: transparent;
+	}
+
+	svg{
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+
+		.arrow{
+			fill: $gold;
+			transition: fill 0.3s ease;
+		}
+	}
+
+	&:hover{
+		.arrow{
+			fill: #000;
+		}
+	}
+
+	&:disabled{
+		opacity: 1;
+
+		.arrow{
+			fill: #d3d3d3;
+		}
+	}
+
+	&:active{
+		opacity: 1;
+	}
+}

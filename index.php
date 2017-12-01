@@ -636,6 +636,9 @@
 
 	<div class="reviews-slider__wrapper">
 		<div class="reviews-slider">
+			<div class="reviews-slider-counter">
+				<span class="reviews-slider-counter__cur">1</span>/<span class="reviews-slider-counter__all">3</span>
+			</div>
 			<div class="review">
 				<p class="h5 review__name">Юлия Катасонова</p>
 				<div class="review__frame review__frame--video">
@@ -646,15 +649,21 @@
 			</div>
 			<div class="review">
 				<p class="h5 review__name">Юлия Катасонова</p>
+				<div class="review__frame review__frame--video">
+					<img src="/img/reviews/1.jpg" alt="1">
+					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
+				</div>
+				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи.</div>
+			</div>
+			<div class="review">
+				<p class="h5 review__name">Юлия Катасонова</p>
 				<div class="review__frame">
 					<img src="/img/reviews/1.jpg" alt="1">
 				</div>
-				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи. Страха больше нет, у меня нет страха. Сейчас я - миллионер, у меня есть возможность помогать своим родителям. У меня есть 3 источника дохода, и они все дают плоды.</div>
+				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще!</div>
 			</div>
 		</div>
 	</div>
-
-
 
 </section>
 

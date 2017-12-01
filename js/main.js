@@ -184,17 +184,30 @@ $(function($){
 
 	reviews_slider.flickity({
 		pageDots: false,
-		wrapAround: false,
-		selectedAttraction: 0.02,
-		friction: 0.3,
 		prevNextButtons: true,
-		cellAlign: 'left'
+		cellAlign: 'left',
+		dragThreshold: 30,
+		arrowShape: 'M13.76,37.45,1.43,49.78a.31.31,0,0,0,0,.48L13.76,62.59a.33.33,0,0,0,.48,0L15.83,61,6.1,51.28H97.22a1.38,1.38,0,0,0,1.36-1.39h0a1.38,1.38,0,0,0-1.36-1.36H6.33L15.83,39l-1.59-1.59a.33.33,0,0,0-.48,0Z',
+		cellSelector: '.review',
+		imagesLoaded: true
 	});
 
 	reviews_slider.on( 'select.flickity', function() {
 		reviews_slider.find('.review.is-selected').removeClass('past');
 		reviews_slider.find('.review.is-selected').prevAll('.review').addClass('past');
 		reviews_slider.find('.review.is-selected').nextAll('.review').removeClass('past');
+	});
+
+	var reviews_slider_data = reviews_slider.data('flickity');
+	var review_current_element = $('.reviews-slider-counter__cur');
+	var review_all_element = $('.reviews-slider-counter__all');
+
+	review_current_element.text(reviews_slider_data.selectedIndex+1);
+	review_all_element.text(reviews_slider_data.slides.length);
+
+	reviews_slider.on( 'select.flickity', function() {
+		review_current_element.text(reviews_slider_data.selectedIndex+1);
+		review_all_element.text(reviews_slider_data.slides.length);
 	});
 });
 /***********************
