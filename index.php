@@ -620,6 +620,117 @@
 </section>
 
 
+<section class="s-preims" id="s-preims">
+
+	<a href="#s-preims" class="anchor scrollto">
+		<figure></figure>
+	</a>
+
+	<div class="container">
+		<p class="h5">преимущества</p>
+		<p class="h2">благодаря этому вы достигните результата</p>
+
+		<nav class="preims-nav">
+			<ul>
+				<li>Личный кабинет</li>
+				<li>20 видеоуроков</li>
+				<li>Прямые эфиры</li>
+				<li>Личная консультация</li>
+				<li>Домашние задания</li>
+				<li>Помощь кураторов</li>
+				<li>Служба заботы</li>
+			</ul>
+		</nav>
+
+		<div class="preims-slider">
+			<div class="preim">
+				<div class="row">
+					<div class="grid-5 grid-6_l grid-7_s grid-12_xs preim__content">
+						<p class="preim__title">Ваш личный кабинет</p>
+						<p class="preim__text">При оплате одного из уровня кур са “Финансовая перезагрузка” вы получаете доступ к личному кабинету, где вы сможете просматривать уроки, выполнять домашние задания и получать консультацию кураторов.</p>
+					</div>
+					<div class="grid-6 grid-off-1 grid-off-0_l grid-5_s grid-7_xs preim__img">
+						<img src="/img/preims/1.jpg" alt="1">
+					</div>
+				</div>
+			</div>
+			<div class="preim">
+				<div class="row">
+					<div class="grid-5 grid-6_l grid-7_s grid-12_xs preim__content">
+						<p class="preim__title">20 эффективных видеоуроков</p>
+						<p class="preim__text">У вас будет доступ в онлайн обучающий класс. 2 раз в неделю в нем открывается видеоурок (20-40 минут). В течение недели смотрите его в любое удобное время. Выполняете домашние задания и приближаетесь к финансовой свободе.</p>
+					</div>
+					<div class="grid-6 grid-off-1 grid-off-0_l grid-5_s grid-7_xs preim__img">
+						<img src="/img/preims/2.jpg" alt="1">
+					</div>
+				</div>
+			</div>
+			<div class="preim">
+				<div class="row">
+					<div class="grid-5 grid-6_l grid-7_s grid-12_xs preim__content">
+						<p class="preim__title">Прямые эфиры</p>
+						<p class="preim__text">Каждую неделю по средам проводятся прямые эфиры с Максимом Темченко где обсуждаются все вопросы в рамках пройденного материала.</p>
+					</div>
+					<div class="grid-6 grid-off-1 grid-off-0_l grid-5_s grid-7_xs preim__img">
+						<img src="/img/preims/3.jpg" alt="1">
+					</div>
+				</div>
+			</div>
+			<div class="preim">
+				<div class="row">
+					<div class="grid-5 grid-6_l grid-7_s grid-12_xs preim__content">
+						<p class="preim__title">Личная консультация</p>
+						<p class="preim__text">В рамках тарифа «Финансовая свобода»  у вас будет личная консультация с Максимом Темченко, где он сможет ответить на все ваши вопросы и сделать качественый разбор вашей ситуации.</p>
+					</div>
+					<div class="grid-6 grid-off-1 grid-off-0_l grid-5_s grid-7_xs preim__img">
+						<img src="/img/preims/4.jpg" alt="1">
+					</div>
+				</div>
+			</div>
+			<div class="preim">
+				<div class="row">
+					<div class="grid-5 grid-6_l grid-7_s grid-12_xs preim__content">
+						<p class="preim__title">Домашние задания</p>
+						<p class="preim__text">После просмотра урока вы получаете домашнее задание, которое нужно выполнить и отправить на проверку.</p>
+					</div>
+					<div class="grid-6 grid-off-1 grid-off-0_l grid-5_s grid-7_xs preim__img">
+						<img src="/img/preims/5.jpg" alt="1">
+					</div>
+				</div>
+			</div>
+			<div class="preim">
+				<div class="row">
+					<div class="grid-5 grid-6_l grid-7_s grid-12_xs preim__content">
+						<p class="preim__title">Помощь кураторов</p>
+						<p class="preim__text">Кураторы сопровождают вас на протяжении всего обучения, поддерживают командный дух, отвечают на вопросы, проверяют Домашние задания и искренне заботятся о вас.</p>
+					</div>
+					<div class="grid-6 grid-off-1 grid-off-0_l grid-5_s grid-7_xs preim__img">
+						<img src="/img/preims/6.jpg" alt="1">
+					</div>
+				</div>
+			</div>
+			<div class="preim">
+				<div class="row">
+					<div class="grid-5 grid-6_l grid-7_s grid-12_xs preim__content">
+						<p class="preim__title">Служба заботы</p>
+						<p class="preim__text">Если у вас возникнут любые технические сложности, наша Служба Заботы оперативно вам поможет.</p>
+					</div>
+					<div class="grid-6 grid-off-1 grid-off-0_l grid-5_s grid-7_xs preim__img">
+						<img src="/img/preims/7.jpg" alt="1">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="preims-slider-counter">
+			<span class="preims-slider-counter__cur">1</span>/<span class="preims-slider-counter__all">7</span>
+		</div>
+
+	</div>
+
+</section>
+
+
 <section class="s-reviews" id="s-reviews">
 
 	<a href="#s-reviews" class="anchor scrollto">

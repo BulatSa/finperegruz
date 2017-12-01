@@ -1,0 +1,173 @@
+.s-preims{
+	background: #eceeed;
+	padding: 100px 0;
+	@include res(s){
+		padding: 50px 0;
+	}
+
+	.h2{
+		margin-bottom: 0.7em;
+	}
+}
+
+//preims-nav
+.preims-nav{
+	border-bottom: 1px solid #707070;
+	@include res(l){
+		border-bottom: none;
+	}
+
+	ul{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		position: relative;
+		top: 1px;
+		@include res(l){
+			display: block;
+			text-align: center;
+		}
+
+		li{
+			white-space: nowrap;
+			font-size: 14px;
+			cursor: pointer;
+			padding: 10px 4px;
+			transition: all 0.3s ease;
+			border-bottom: 4px solid transparent;
+			@include res(l){
+				display: inline-block;
+				padding: 5px 15px;
+				border-radius: 30px;
+				border: none !important;
+				background: transparent;
+				margin-bottom: 0.3em;
+				font-size: 12px;
+			}
+			@include res(xs){
+				padding: 5px 8px;
+				font-size: 10px;
+			}
+
+			&:hover{
+				color: $gold;
+				@include res(l){
+					background: #dedede;
+					color: #000;
+				}
+			}
+
+			&.active{
+				color: $gold;
+				border-bottom: 4px solid $gold;
+				@include res(l){
+					background: $gold;
+					color: #FFF;
+				}
+			}
+		}
+	}
+}
+//preims-nav
+
+
+//preims-slider
+.preims-slider{
+	margin-top: 40px;
+	margin-bottom: 54px;
+	@include res(xl){
+		margin-top: 20px;
+	}
+
+	.flickity-prev-next-button{
+		position: absolute;
+		left: calc(50% - 27px);
+		bottom: -54px;
+		top: initial;
+		right: initial;
+		@include res(xs){
+			margin-top: 5px;
+		}
+
+		&.previous{
+			transform: translate(-54px,0);
+		}
+		&.next{
+			transform: translate(54px,0);
+		}
+	}
+}
+
+
+.preims-slider-counter{
+	color: $gold;
+	font-weight: bold;
+	font-size: 16px;
+	width: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -35px;
+	text-align: center;
+	height: 16px;
+	line-height: 1;
+}
+
+.preim{
+	width: 100%;
+	margin: 0 10px;
+	overflow: hidden;
+
+	.row{
+		@include res(xs){
+			justify-content: center;
+		}
+	}
+
+	&__content{
+		padding-top: 80px;
+		@include res(m){
+			padding-top: 40px;
+		}
+		@include res(xs){
+			padding-top: 0;
+			margin-bottom: 10px;
+		}
+	}
+
+	&__title{
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 0.15em;
+		font-size: 30px;
+		margin-bottom: 0.5em;
+		line-height: 1.2;
+		@include res(l){
+			font-size: 24px;
+		}
+		@include res(s){
+			font-size: 20px;
+		}
+	}
+
+	&__text{
+		font-size: 18px;
+		@include res(l){
+			font-size: 16px;
+		}
+		@include res(s){
+			font-size: 14px;
+		}
+	}
+
+	&__img{
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+
+
+//preims-slider
