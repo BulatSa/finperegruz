@@ -838,77 +838,97 @@
 <section class="stars-sec">
 	<div class="stars container">
 		<div class="row">
-			<div class="grid-3 grid-4_m grid-6_s">
+			<div class="grid-3 grid-4_m grid-6_s grid-12_xxs">
 				<div class="stars__item">
 					<img src="img/stars/item-1.jpg" alt="">
 					<div class="stars__item-info">
-						<p>Первый семинар с Энтони Роббинсом.<br><br>
-							Апрель, 2016 год </p>
+						<p>Первая встреча с Брайаном Трейси. Я был одним из организаторов его приезда в Хабаровск в 2013-м году.<br><br>Шикарная возможность поучиться у Гуру один на один. Смотрите моё интервью с ним на Youtube.
+						</p>
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_m grid-6_s">
+			<div class="grid-3 grid-4_m grid-6_s grid-12_xxs">
 				<div class="stars__item">
 					<img src="img/stars/item-2.jpg" alt="">
 					<div class="stars__item-info">
-						<p>Первый семинар с Энтони Роббинсом.<br><br>
-							Апрель, 2016 год </p>
+						<p>С Роберотом Кийосаки и его женой Ким, я встречался 5 раз. Впервые – в 2010-м году в США. Учиться у него лично – это совершенно иной опыт, и он совсем другой чем в книгах.</p>
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_m grid-6_s">
+			<div class="grid-3 grid-4_m grid-6_s grid-12_xxs">
 				<div class="stars__item">
 					<img src="img/stars/item-3.jpg" alt="">
 					<div class="stars__item-info">
-						<p>Первый семинар с Энтони Роббинсом.<br><br>
-							Апрель, 2016 год </p>
+						<p>Мечта о частном самолете сбылась в 2017-м, через 5 лет после того, как я его поместил в Плакат Мечты.<br>У моей супруги эта мечта была с 17 лет.</p>
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_m grid-6_s">
+			<div class="grid-3 grid-4_m grid-6_s grid-12_xxs">
 				<div class="stars__item">
 					<img src="img/stars/item-4.jpg" alt="">
 					<div class="stars__item-info">
-						<p>Первый семинар с Энтони Роббинсом.<br><br>
-							Апрель, 2016 год </p>
+						<p>В мае 2016 году я реализовал еще одну крутую мечту: встреча с Арнольдом Шварценеггером. Осуществить это было сложно, но это того стоило!</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="grid-3 grid-4_m grid-6_s">
+			<div class="grid-3 grid-4_m grid-6_s grid-12_xxs">
+				<div class="stars__item">
+					<img src="img/stars/item-8.jpg" alt="">
+					<div class="stars__item-info">
+						<p>Бритни Спирс. Фанател еще в детстве. Стал еще больше фанатеть, когда узнал, что она заработала за свою карьеру больше 6 миллиардов долларов! Встретился в январе 2017 году.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-4_m grid-6_s grid-12_xxs">
 				<div class="stars__item">
 					<img src="img/stars/item-5.jpg" alt="">
 					<div class="stars__item-info">
-						<p>Первый семинар с Энтони Роббинсом.<br><br>
-							Апрель, 2016 год </p>
+						<p>Дэвид Копперфильд. Один из самых богатых и знаменитых. А еще и интересных людей планеты.</p>
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_m grid-6_s">
+			<div class="grid-3 grid-4_m grid-6_s grid-12_xxs">
 				<div class="stars__item">
 					<img src="img/stars/item-6.jpg" alt="">
 					<div class="stars__item-info">
-						<p>Первый семинар с Энтони Роббинсом.<br><br>
-							Апрель, 2016 год </p>
+						<p>Всю жизнь читал книги о деньгах. Сам написал уже 6 книг и продолжаю писать. Есть чем поделиться.</p>
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_m grid-6_s">
+			<div class="grid-3 grid-4_m grid-6_s grid-12_xxs">
 				<div class="stars__item">
 					<img src="img/stars/item-7.jpg" alt="">
 					<div class="stars__item-info">
-						<p>Первый семинар с Энтони Роббинсом.<br><br>
-							Апрель, 2016 год </p>
+						<p>Энтони Роббинс, самый дорогой коуч в мире. Впервые на его семинаре мы побывали в апреле 2016, а в 2017-м году мы стали его Платиновыми Партнерами. Это обошлось нам в цену нового Роллс-Ройса, но того стоило.</p>
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-4_m grid-6_s">
-				<div class="stars__item">
-					<img src="img/stars/item-7.jpg" alt="">
-					<div class="stars__item-info">
-						<p>Первый семинар с Энтони Роббинсом.<br><br>
-							Апрель, 2016 год </p>
-					</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="book-sec">
+	<div class="book container">
+		<div class="row">
+			<div class="grid-6">
+				<p class="book__title">
+					книга максима темченко
+					<span class="h2">Хотите узнать о методике курса?</span>
+				</p>
+				<div class="book__descr">
+					<p>Эта книга поможет найти ответы на большую часть ваших ежедневных вопросов в области финансов и позволит ознакомиться с главной концепцией преподавания Максима Темченко.</p>
+				</div>
+				<div class="book__pages">
+					<a href="#" class="fancy"><img src="" alt=""></a>
+					<a href="#" class="fancy"><img src="" alt=""></a>
+				</div>
+				<a href="#" class="btn">скачать книгу в pdf<i class="i-right"></i></a>
+			</div>
+			<div class="grid-6">
+				<div class="book__img">
+					<img src="img/book/book.png" alt="">
 				</div>
 			</div>
 		</div>

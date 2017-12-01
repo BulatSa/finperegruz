@@ -18,6 +18,7 @@
 		padding-right: 18px;
 	}
 	.grid-6_s {
+		text-align: center;
 		@include res(s) {
 			padding-left: 5px;
 			padding-right: 5px;
@@ -27,7 +28,9 @@
 
 .stars__item {
 	position: relative;
-	margin-bottom: 24px;
+	display: inline-block;
+	margin: 0 auto 20px;
+	text-align: left;
 	@include res(s) {
 		margin-bottom: 10px;
 	}
@@ -47,22 +50,21 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	padding: $pad-s $pad-s;
-	font-size: 20px;
+	padding: $pad-xs $pad-xs;
+	font-size: 16px;
 	line-height: 1.4;
 	color: #fff;
 	opacity: 0;
 	background: #bc9f7d;
 	transition: all 0.3s ease;
 	@include res(l) {
-		padding: $pad-xs $pad-xs;
-		font-size: 16px;
+		font-size: 14px;
 	}
 	@include res(xs) {
 		padding: $pad-xxs $pad-xxs;
-		font-size: 14px;
+		font-size: 12px;
 	}
 	@include res(xxs) {
-		font-size: 12px;
+		font-size: 14px;
 	}
 }
