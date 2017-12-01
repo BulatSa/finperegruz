@@ -148,31 +148,31 @@
 					</div>
 					<div class="faq-item">
 						<header class="faq-item__question">Крупные траты застают врасплох</header>
-						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+						<main class="faq-item__answer">Окончательно сломалась старая стиральная машина и нет денег на новую? Вы научитесь находить деньги на такие покупки без изменения доходов и кредитов.</main>
 					</div>
 					<div class="faq-item">
 						<header class="faq-item__question">Мечтаете расплатиться по кредитам</header>
-						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+						<main class="faq-item__answer">У вас есть несколько кредитов и вы постоянно думаете, как погасить их? Покажем, как быстро расквитаться со старыми долгами и не влезать в новые. </main>
 					</div>
 					<div class="faq-item">
 						<header class="faq-item__question">Ваши расходы превышают доходы</header>
-						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+						<main class="faq-item__answer">Вас преследуют срочные, неотложные расходы, которых нельзя избежать? Вся зарплата расписана наперед? Вы научитесь контролировать эту ситуацию и тратить рационально.</main>
 					</div>
 					<div class="faq-item">
 						<header class="faq-item__question">Постоянно думаете о деньгах</header>
-						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+						<main class="faq-item__answer">Вам постоянно нужно что-то купить и вы все время думаете, где раздобыть денег? Вы научитесь жить так, как будто у вас уже есть все необходимое. И так действительно будет. </main>
 					</div>
 					<div class="faq-item">
 						<header class="faq-item__question">Завидуете богатым</header>
-						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+						<main class="faq-item__answer">Думаете, откуда у людей деньги на красивую одежду, дорогие машины, квартиры? Вы узнаете, какие источники заработка используют богатые люди.</main>
 					</div>
 					<div class="faq-item">
 						<header class="faq-item__question">Хотите зарабатывать больше</header>
-						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+						<main class="faq-item__answer">Вы научитесь увеличивать свой доход, накапливать капитал и богатеть, не затрачивая больше времени на работу. Это реальная перспектива.</main>
 					</div>
 					<div class="faq-item">
 						<header class="faq-item__question">Устали от всего этого</header>
-						<main class="faq-item__answer">Замечали ли вы за собой, что зарплата у вас заканчивается на вторую, а даже и первую неделю? Не меняя доход, вы научитесь создавать свой капитал.</main>
+						<main class="faq-item__answer">Все проблемы с деньгами кажутся вам неразрешимыми или очень трудными. «Финансовая перезагрузка» кардинально изменит ваше представление о мире денег. У вас появятся долгожданные финансовые возможности. </main>
 					</div>
 				</div>
 
@@ -192,7 +192,7 @@
 		<header class="s-levels__head">
 			<p class="h5">пошаговая программа обучения, повышающая ваш доход</p>
 			<p class="h2">4-х уровневый курс</p>
-			<p class="s-levels__subtitle">Каждый уровень помогать вам эффективно осваивать финансовую грамотность, нарабывать навыки мышления миллионера, выполненяя домашнее задание. Каждый уровень включает в себя предыдущий.</p>
+			<p class="s-levels__subtitle">Каждый уровень помогать вам эффективно осваивать финансовую грамотность, нарабатывать навыки мышления миллионера, выполняя домашнее задание. Каждый уровень включает в себя предыдущий.</p>
 		</header>
 
 
@@ -559,6 +559,12 @@
 			</div>
 			<div class="how-item">
 				<header>
+					<img src="/img/how/how-4.svg" alt="1" width="47" height="65">
+				</header>
+				<p>ежедневная поддержка от&nbsp;менторов курса</p>
+			</div>
+			<div class="how-item">
+				<header>
 					<img src="/img/how/how-3.svg" alt="1" width="45" height="64">
 				</header>
 				<p>специальные шаблоны и&nbsp;раздаточные материалы</p>
@@ -754,24 +760,25 @@
 				<p class="h5 review__name">Юлия Катасонова</p>
 				<div class="review__frame review__frame--video">
 					<img src="/img/reviews/1.jpg" alt="1">
-					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
+					<a href="https://www.youtube.com/watch?v=jgM28NvLQEM&amp;autoplay=1&amp;rel=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
 				</div>
 				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи. Страха больше нет, у меня нет страха. Сейчас я - миллионер, у меня есть возможность помогать своим родителям. У меня есть 3 источника дохода, и они все дают плоды.</div>
 			</div>
 			<div class="review">
-				<p class="h5 review__name">Юлия Катасонова</p>
+				<p class="h5 review__name">Сергей Троцкий</p>
 				<div class="review__frame review__frame--video">
-					<img src="/img/reviews/1.jpg" alt="1">
-					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
+					<img src="/img/reviews/2.jpg" alt="1">
+					<a href="https://www.youtube.com/watch?v=Mpc_YWXWKG4&amp;autoplay=1&amp;rel=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
 				</div>
-				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи.</div>
+				<div class="review__text">В 5 раз увеличил свой доход. Неожиданно начали появляться и другие источники дохода. Месячный доход - 350 тысяч, с бонусами порядка пятиста и подкрадывается к миллиону рублей в месяц. Я позволил себе мечтать. И под эти мечты появились возможности. С удовольствием инвестирую в себя и свою семью.</div>
 			</div>
 			<div class="review">
-				<p class="h5 review__name">Юлия Катасонова</p>
-				<div class="review__frame">
-					<img src="/img/reviews/1.jpg" alt="1">
+				<p class="h5 review__name">Егор Щербаков</p>
+				<div class="review__frame review__frame--video">
+					<img src="/img/reviews/3.jpg" alt="1">
+					<a href="https://www.youtube.com/watch?v=8U5aGsdRXAM&amp;autoplay=1&amp;rel=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
 				</div>
-				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще!</div>
+				<div class="review__text">От ночного санитара до дохода 270000 руб. в месяц. Сейчас я живу в своей мечте. Прежде всего мы повысили качество продукта, заказов стало больше, мы увеличили чек. Наши доходы выросли и я наконец-то начал инвестировать и создавать деньги… Я увеличил свой доход в 3 раза за год, планирую бизнес в Америке.!</div>
 			</div>
 		</div>
 	</div>
