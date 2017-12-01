@@ -1,0 +1,93 @@
+.book-sec {
+	padding-top: $pad-xl;
+	padding-bottom: $pad-xl;
+	background: url('../img/book/bg-book.jpg') no-repeat top center;
+	@include res(l) {
+		padding-top: $pad-l;
+		padding-bottom: $pad-s;
+		background-size: auto 100%;
+	}
+	@include res(s) {
+		padding-top: $pad-s;
+		padding-bottom: $pad-s;
+	}
+}
+
+.book {
+	padding-bottom: $pad-m;
+	color: #fff;
+	@include res(l) {
+		padding-bottom: $pad-s;
+	}
+	@include res(s) {
+		padding-bottom: $pad-xxs;
+	}
+}
+
+.book__title {
+	padding-bottom: $pad-s;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	@include res(s) {
+		padding-bottom: $pad-xs;
+	}
+	@include res(xs) {
+		padding-bottom: $pad-xxs;
+	}
+}
+
+.book__descr {
+	padding-bottom: $pad-m;
+	font-size: 18px;
+	line-height: 1.5;
+	@include res(l) {
+		padding-bottom: $pad-s;
+		font-size: 16px;
+	}
+	@include res(s) {
+		padding-bottom: $pad-xs;
+	}
+}
+
+.book__pages {
+	display: flex;
+	padding-bottom: $pad-m;
+	@include res(l) {
+		padding-bottom: $pad-s;
+	}
+	a {
+		display: inline-block;
+		margin-right: $pad-xs;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	img {
+		display: block;
+		max-width: 100%;
+	}
+}
+
+.book__img {
+	@include res(xs) {
+		display: none;
+	}
+	img {
+		display: block;
+	}
+	&--mobile {
+		display: none;
+		padding-left: $pad-s;
+		padding-right: $pad-s;
+		@include res(xs) {
+			display: block;
+			padding-bottom: $pad-s;
+		}
+		img {
+			max-width: 300px;
+			width: 100%;
+		}
+	}
+}

@@ -912,7 +912,7 @@
 <section class="book-sec">
 	<div class="book container">
 		<div class="row">
-			<div class="grid-6">
+			<div class="grid-6 grid-7_m grid-8_s grid-12_xs">
 				<p class="book__title">
 					книга максима темченко
 					<span class="h2">Хотите узнать о методике курса?</span>
@@ -920,15 +920,63 @@
 				<div class="book__descr">
 					<p>Эта книга поможет найти ответы на большую часть ваших ежедневных вопросов в области финансов и позволит ознакомиться с главной концепцией преподавания Максима Темченко.</p>
 				</div>
+				<div class="book__img book__img--mobile">
+					<img src="img/book/book.png" alt="">
+				</div>
 				<div class="book__pages">
-					<a href="#" class="fancy"><img src="" alt=""></a>
-					<a href="#" class="fancy"><img src="" alt=""></a>
+					<a href="img/book/book-page-1.png" class="fancy"><img src="img/book/book-page-1.png" alt=""></a>
+					<a href="img/book/book-page-2.png" class="fancy"><img src="img/book/book-page-2.png" alt=""></a>
 				</div>
 				<a href="#" class="btn">скачать книгу в pdf<i class="i-right"></i></a>
 			</div>
-			<div class="grid-6">
+			<div class="grid-6 grid-5_m grid-4_s">
 				<div class="book__img">
 					<img src="img/book/book.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="grid-5 grid-6_m grid-12_xxs">
+					<div class="footer__text">
+						<span class="footer__descr">Бесплатный звонок по России</span>
+						<a href="tel:8 800 000-00-00" class="footer__tel">8 800 000-00-00</a>
+						<a href="#" class="footer__callback fancy" data-src="#modal-order">заказать обратный звонок</a>
+					</div>
+				</div>
+				<div class="grid-3 grid-6_m grid-12_xxs">
+					<div class="footer__text">
+						<span class="footer__descr">По вопросам сотрудничества</span>
+						<a href="tel:8 495 346-89-23" class="footer__tel">8 495 346-89-23</a>
+						<a href="mailto:info@domen.ru" class="footer__mail">info@domen.ru</a>
+					</div>
+				</div>
+				<div class="grid-4 grid-6_m grid-12_xxs">
+					<div class="footer__soc">
+						<a href="#" target="_blank"><img src="img/icons/soc-vk.svg" alt=""></a>
+						<a href="#" target="_blank"><img src="img/icons/soc-fb.svg" alt=""></a>
+						<a href="#" target="_blank"><img src="img/icons/soc-insta.svg" alt=""></a>
+						<a href="#" target="_blank"><img src="img/icons/soc-you.svg" alt=""></a>
+					</div>
+				</div>
+
+				<div class="grid-5 grid-12_m">
+					<div class="footer__bottom">
+						<span>© 2016–2017, Финансовая перезагрузка</span>
+					</div>
+				</div>
+				<div class="grid-3 grid-6_m">
+					<div class="footer__bottom">
+						<a href="#" target="_blank">Политика конфиденциальности</a>
+					</div>
+				</div>
+				<div class="grid-4 grid-6_m">
+					<div class="footer__bottom footer__bottom--right">
+						<span>Сайт разработан — </span><a href="#">Pen&Brain</a>
+					</div>
 				</div>
 			</div>
 		</div>
