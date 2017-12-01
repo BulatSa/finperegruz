@@ -43,12 +43,14 @@
 	}
 
 	&:after{
-		content: url('../img/levels/shadow.png');
+		content: '';
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		width: 100%;
-		height: auto;
+		height: 53px;
+		background: url("../img/levels/shadow.png") center bottom no-repeat;
+		background-size: contain;
 	}
 
 	&__left{
@@ -72,6 +74,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		justify-content: flex-start;
 		@include res(l){
 			padding-left: 30px !important;
 		}
@@ -96,6 +99,7 @@
 	}
 
 	&__img{
+		display: block;
 		max-width: 100%;
 		height: auto;
 		margin-bottom: auto;

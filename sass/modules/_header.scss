@@ -183,7 +183,7 @@
 	padding-bottom: $pad-xxs;
 	width: 100%;
 	background: #020202;
-	z-index: 3;
+	z-index: 50;
 	@include res(l) {
 		padding-top: 8px;
 		padding-bottom: 8px;
@@ -235,7 +235,6 @@
 	ul {
 		display: flex;
 		align-items: center;
-		flex-wrap: wrap;
 		@include res(l) {
 			justify-content: flex-end;
 		}

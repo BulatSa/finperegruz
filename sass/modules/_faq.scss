@@ -36,6 +36,9 @@
 		cursor: pointer;
 		transition: color 0.3s ease;
 		line-height: 1.2;
+		@include res(xs){
+			font-size: 16px;
+		}
 
 		&:hover{
 			color: $gold;

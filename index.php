@@ -47,14 +47,14 @@
 
 					<div class="header__video header__video--tablet">
 						<p>Видео-обращение<br>Максима Темченко<span>00:37</span></p>
-						<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&autoplay=1&rel=0&controls=0&showinfo=0" class="fancy"><i class="i-arrow-play"></i></a>
+						<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&autoplay=1&rel=0&controls=0&showinfo=0" class="fancy-video"><i class="i-arrow-play"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="grid-4">
 				<div class="header__video">
 					<p>Видео-обращение<br>Максима Темченко<span>00:37</span></p>
-					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&autoplay=1&rel=0&controls=0&showinfo=0" class="fancy"><i class="i-arrow-play"></i></a>
+					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&autoplay=1&rel=0&controls=0&showinfo=0" class="fancy-video"><i class="i-arrow-play"></i></a>
 				</div>
 			</div>
 		</div>
@@ -222,9 +222,56 @@
 				</div>
 				<div class="grid-6 grid-12_m level__right">
 					<img src="/img/levels/level-1.jpg" alt="1" class="level__img">
-					<a href="#" class="btn btn--outline">Программа 1 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
+					<a href="#" class="btn btn--outline fancy" data-src="#modal-level-1">Программа 1 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
 				</div>
 				<img src="/img/coin.png" alt="c" class="level__coin">
+
+				<div id="modal-level-1" class="modal modal--level modal--level-1">
+					<p class="h5">программа первого уровня</p>
+					<p class="h3">Финансовая Безопасность</p>
+
+					<p class="h4">Это когда у вас:</p>
+					<ul class="checked-list">
+						<li>Четкие финансовые цели</li>
+						<li>Прописаны планы и перспективы</li>
+						<li>Дополнительные источники дохода</li>
+						<li>Доходы превышают расходы</li>
+						<li>Есть «подушка безопасности» минимум на 6 месяцев</li>
+					</ul>
+
+					<p class="h4">Что будет на этом уровне:</p>
+					<ul class="checked-list">
+						<li>Диагностика. Где я нахожусь</li>
+						<li>Программа ОПРЕДЕЛЕННОСТИ (самоопределения и видения)</li>
+						<li>Понятие активы/ пассивы/ долги/ имущество/ доходы/ расходы/ дельта/ капитал/ баланс</li>
+						<li>Организация фокуса внимания, как работает фокус внимания</li>
+						<li>Зачем нужны цели (Философия и оцифровка целей)</li>
+						<li>Уровни целей и уровни ответственности — как совместить</li>
+						<li>Определение своего ступора</li>
+						<li>Ограничивающие убеждения (выявление и работа с ними)</li>
+						<li>Определение личных финансовых страхов и тревог</li>
+						<li>Исцеление. Тета-Хилинг Раскопки самого главного барьера и стресс-мысли</li>
+						<li>Насыщение ресурсами</li>
+						<li>Достижение финансовой безопасности</li>
+						<li>Финансовый план = карта дороги к Будущему</li>
+					</ul>
+
+					<p class="h4">Бонусные темы:</p>
+					<ul class="checked-list">
+						<li>Как найти работу</li>
+						<li>Как выбраться из долгов, избавиться от пассивов — антидолг, анти-ипотека</li>
+					</ul>
+
+					<p class="h4">Пройдя этот уровень, вы сможете:</p>
+					<ul class="checked-list">
+						<li>Избавиться от финансового ступора</li>
+						<li>Сдвинуться с мертвой точки</li>
+						<li>Сделать деньги на ровном месте</li>
+						<li>Избавиться от финансовых дыр</li>
+						<li>Начнете копить и откладывать</li>
+					</ul>
+
+				</div>
 			</div>
 
 			<div class="level row">
@@ -255,9 +302,60 @@
 				</div>
 				<div class="grid-6 grid-12_m level__right">
 					<img src="/img/levels/level-2.jpg" alt="1" class="level__img">
-					<a href="#" class="btn btn--outline">Программа 2 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
+					<a href="#" class="btn btn--outline fancy" data-src="#modal-level-2">Программа 2 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
 				</div>
 				<img src="/img/coin.png" alt="c" class="level__coin">
+
+				<div id="modal-level-2" class="modal modal--level modal--level-2">
+					<p class="h5">программа второго уровня</p>
+					<p class="h3">Финансовая стабильность</p>
+
+					<p class="h4">Это когда у вас:</p>
+					<ul class="checked-list">
+						<li>Уверенность в завтрашнем дне</li>
+						<li>Доходы превышают расходы в 2 раза</li>
+						<li>Решены бытовые вопросы</li>
+						<li>Несколько источников дохода</li>
+						<li>Есть «подушка безопасности» минимум на 12 месяцев</li>
+					</ul>
+
+					<p class="h4">Что будет на этом уровне:</p>
+					<ul class="checked-list">
+						<li>Доходы. Программа РОСТА (устойчивость и ускорение)</li>
+						<li>Стратегии увеличения доходов</li>
+						<li>Расходы. Убеждения, влияющие на бездумные траты</li>
+						<li>Умный контроль расходов</li>
+						<li>Стратегии снижения расходов</li>
+						<li>Бизнес с нуля. Почему нужно и как возможно создавать бизнес с нуля</li>
+						<li>3 способа создать бизнес с нуля</li>
+						<li>Старт в инвестировании</li>
+						<li>Убеждения по поводу инвестиций</li>
+						<li>с какой суммы можно инвестировать</li>
+						<li>Главные ошибки при инвестировании</li>
+					</ul>
+
+					<p class="h4">Бонусные темы:</p>
+					<ul class="checked-list">
+						<li>Как выбрать МЛМ</li>
+						<li>Как начать формировать пенсию</li>
+						<li>Как выбрать СНП</li>
+					</ul>
+
+					<p class="h4">Пройдя этот уровень, вы сможете:</p>
+					<ul class="checked-list">
+						<li>Придать финансовую уверенность</li>
+						<li>Начать повышать свои доходы</li>
+						<li>Начать инвестировать</li>
+						<li>Взять под полный контроль расходы</li>
+						<li>Увеличивать доходность текущих источников</li>
+						<li>Создавать новые источники доходов с нуля</li>
+						<li>Стать предпринимателем и создать свой бизнес с нуля</li>
+						<li>Создать финансовое будущее (пенсия+страховка)</li>
+						<li>Сделать первые шаги в инвестировании</li>
+						<li>Понимать куда и как идти дальше</li>
+					</ul>
+
+				</div>
 			</div>
 
 			<div class="level row">
@@ -285,9 +383,58 @@
 				</div>
 				<div class="grid-6 grid-12_m level__right">
 					<img src="/img/levels/level-3.jpg" alt="1" class="level__img">
-					<a href="#" class="btn btn--outline">Программа 3 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
+					<a href="#" class="btn btn--outline fancy" data-src="#modal-level-3">Программа 3 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
 				</div>
 				<img src="/img/coin.png" alt="c" class="level__coin">
+
+				<div id="modal-level-3" class="modal modal--level modal--level-3">
+					<p class="h5">программа третьего уровня</p>
+					<p class="h3">Финансовая независимость</p>
+
+					<p class="h4">Это когда у вас:</p>
+					<ul class="checked-list">
+						<li>Пассивный доход больше необходимых расходов</li>
+						<li>Можно жить на пассивный доход и не работать</li>
+						<li>Пассивный доход постоянно растет</li>
+						<li>Выгодные инвестиции</li>
+						<li>Бизнес в удовольствие</li>
+						<li>Время и возможности для осуществления большинства своих целей и желаний</li>
+					</ul>
+
+					<p class="h4">Что будет на этом уровне:</p>
+					<ul class="checked-list">
+						<li>Пассивный Доход</li>
+						<li>Программа ОТСТРОЙКИ (самостоятельность и долгосрочность)</li>
+						<li>Убеждения по поводу пассивного дохода</li>
+						<li>Виды пассивного дохода</li>
+						<li>Инвест-портфель. Убеждения по поводу инвест-портфеля</li>
+						<li>Стратегия инвестирования</li>
+						<li>Подушка безопасности Save / Grow</li>
+						<li>С чего начать копить капитал</li>
+						<li>Усиление бизнеса</li>
+						<li>Убеждения и страхи собственника</li>
+						<li>Как отойти от оперативного управления бизнесом и стать учредителем</li>
+						<li>Как быстро развить свой бизнес</li>
+						<li>Делегирование и масштабирование</li>
+						<li>Налоговая оптимизация</li>
+						<li>Рост бизнеса на 50% за 3 месяца</li>
+						<li>Как найти инвестора в свой проект</li>
+						<li>Как инвестировать в свой бизнес</li>
+						<li>Как инвестировать в чужой бизнес</li>
+					</ul>
+
+					<p class="h4">Пройдя этот уровень, вы сможете:</p>
+					<ul class="checked-list">
+						<li>Развить позицию собственника бизнеса</li>
+						<li>Стать инвестором (позволить себе получать пассивный доход)</li>
+						<li>Начать формировать долгосрочный капитал</li>
+						<li>Выйти на пассивный доход</li>
+						<li>Начать грамотно инвестировать</li>
+						<li>Управлять бизнесом (а не предприятием)</li>
+						<li>Меньше работать, больше зарабатывать</li>
+					</ul>
+
+				</div>
 			</div>
 
 			<div class="level row">
@@ -317,9 +464,71 @@
 				</div>
 				<div class="grid-6 grid-12_m level__right">
 					<img src="/img/levels/level-4.jpg" alt="1" class="level__img">
-					<a href="#" class="btn btn--outline">Программа 4 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
+					<a href="#" class="btn btn--outline fancy" data-src="#modal-level-4">Программа 4 уровня <img src="/img/icons/icon-doc.svg" alt="1" width="19" height="25" class="icon-doc"></a>
 				</div>
 				<img src="/img/coin.png" alt="c" class="level__coin">
+
+				<div id="modal-level-4" class="modal modal--level modal--level-4">
+					<p class="h5">программа четвертого уровня</p>
+					<p class="h3">Финансовая свобода</p>
+
+					<p class="h4">Это когда у вас:</p>
+					<ul class="checked-list">
+						<li>Пассивный доход намного больше желаемых расходов, капитал создает денежный поток</li>
+						<li>Пассивный доход покрывает все ваши реалистичные желания</li>
+						<li>Выстраивается семейный капитал, который перейдет следующим поколениям</li>
+						<li>Бизнес и доходы растут в геометрической прогрессии</li>
+					</ul>
+
+					<p class="h4">Что будет на этом уровне:</p>
+					<ul class="checked-list">
+						<li>Капитал</li>
+						<li>Профессиональные инвестиции</li>
+						<li>Программа МАСШТАБА (финансов и личности)</li>
+						<li>Долгосрочные тренды</li>
+						<li>Управляющие компании</li>
+						<li>Диверсификация</li>
+						<li>Семейный капитал</li>
+						<li>Учет инфляции (стоимость денег во времени)</li>
+						<li>Продвинутый ЛФП</li>
+						<li>Антикризисные стратегии</li>
+						<li>Как работает экономика</li>
+						<li>Мировые экономические циклы</li>
+						<li>Мировые тренды производительности</li>
+						<li>Мировые прогнозы и стратегии</li>
+						<li>Масштабирование Бизнеса</li>
+						<li>Убеждения по поводу масштабирования</li>
+						<li>Как стать номер 1 в мире</li>
+						<li>Франшизы / Филиалы / Корпорация</li>
+						<li>Деньги других людей</li>
+						<li>Время других людей</li>
+						<li>Личная свобода</li>
+						<li>Где брать жизненную энергию</li>
+						<li>Сила духа</li>
+						<li>Цельная жизнь</li>
+						<li>Миссия и Предназначение</li>
+					</ul>
+
+					<p class="h4">Бонусные тема:</p>
+					<ul class="checked-list">
+						<li>Как найти предназначение</li>
+					</ul>
+
+					<p class="h4">Пройдя этот уровень, вы сможете:</p>
+					<ul class="checked-list">
+						<li>Грамотно управлять инвестициями</li>
+						<li>Масштабировать бизнес</li>
+						<li>Выстроить личную финансовую стратегию</li>
+						<li>Стать капиталистом</li>
+						<li>Иметь устойчивость к кризису</li>
+						<li>Масштабировать бизнес и отойти от дел в компании</li>
+						<li>Покупать время других людей</li>
+						<li>Привлекать и использовать ресурсы других людей</li>
+						<li>Быстрее иметь то, что хочется</li>
+						<li>Выстроить долгосрочную стратегию инвестиций, понимая экономические циклы</li>
+					</ul>
+
+				</div>
 			</div>
 
 		</main>
@@ -409,5 +618,45 @@
 	</div>
 
 </section>
+
+
+<section class="s-reviews" id="s-reviews">
+
+	<a href="#s-reviews" class="anchor scrollto">
+		<figure></figure>
+	</a>
+
+	<div class="container">
+		<div class="reviews-intro">
+			<p class="h5">отзывы</p>
+			<p class="h2">впечатления выпускников курса</p>
+			<p class="reviews-intro__descr">У&nbsp;нас каждый студент уникальный. 81%&nbsp;учеников достигают поставленных целей, сохранив навык создания капитала и&nbsp;управления деньгами на&nbsp;всю жизнь.</p>
+		</div>
+	</div>
+
+	<div class="reviews-slider__wrapper">
+		<div class="reviews-slider">
+			<div class="review">
+				<p class="h5 review__name">Юлия Катасонова</p>
+				<div class="review__frame review__frame--video">
+					<img src="/img/reviews/1.jpg" alt="1">
+					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
+				</div>
+				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи. Страха больше нет, у меня нет страха. Сейчас я - миллионер, у меня есть возможность помогать своим родителям. У меня есть 3 источника дохода, и они все дают плоды.</div>
+			</div>
+			<div class="review">
+				<p class="h5 review__name">Юлия Катасонова</p>
+				<div class="review__frame">
+					<img src="/img/reviews/1.jpg" alt="1">
+				</div>
+				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи. Страха больше нет, у меня нет страха. Сейчас я - миллионер, у меня есть возможность помогать своим родителям. У меня есть 3 источника дохода, и они все дают плоды.</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</section>
+
 
 <?php include('footer.php'); ?>
