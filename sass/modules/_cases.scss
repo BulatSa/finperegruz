@@ -160,6 +160,7 @@
 	width: 25%;
 	padding-left: $pad-s;
 	padding-right: $pad-s;
+	padding-bottom: $pad-xs;
 	text-align: center;
 	@include res(m) {
 		padding-left: $pad-xxs;
@@ -168,7 +169,6 @@
 	@include res(s) {
 		max-width: initial;
 		width: 50%;
-		padding-bottom: $pad-xs;
 	}
 	p {
 		font-size: 16px;
@@ -192,3 +192,122 @@
 		flex-shrink: 0;
 	}
 }
+
+.cases__people {
+	padding-top: $pad-xl;
+	@include res(l) {
+		padding-top: $pad-l;
+	}
+	@include res(s) {
+		padding-top: $pad-m;
+	}
+	@include res(xs) {
+		padding-top: $pad-s;
+	}
+}
+
+.cases__people-title {
+	padding-bottom: $pad-m;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	@include res(l) {
+		padding-bottom: $pad-s;
+	}
+}
+
+.cases__people-list {
+	display: flex;
+	align-items: flex-start;
+}
+
+.cases__people-item {
+	text-align: center;
+	padding-bottom: $pad-s;
+	img {
+		display: block;
+		margin: 0 auto $pad-xs;
+		@include res(l) {
+			margin-bottom: $pad-xxs;
+		}
+	}
+	&>span {
+		display: inline-block;
+		padding-bottom: $pad-xxs;
+		font-size: 18px;
+	}
+}
+
+.cases__people-item-text {
+	p {
+		font-size: 14px;
+		font-weight: bold;
+		padding-bottom: 5px;
+	}
+}
+
+.cases__people-item-table {
+	.goal-descr {
+		display: inline-block;
+		width: 48%;
+		padding-right: 20px;
+		font-size: 14px;
+		text-align: right;
+		font-weight: normal;
+		@include res(l) {
+			padding-right: 15px;
+		}
+		@include res(s) {
+			padding-right: 10px;
+		}
+	}
+	.goal-summ {
+		display: inline-block;
+		width: 52%;
+		font-weight: bold;
+		text-align: left;
+		font-size: 16px;
+		@include res(l) {
+			font-size: 14px;
+		}
+	}
+}
+
+.cases__people-action {
+	padding-top: $pad-m;
+	text-align: center;
+	@include res(l) {
+		padding-top: $pad-s;
+	}
+	@include res(m) {
+		padding-top: $pad-xxs;
+	}
+	@include res(s) {
+		padding-top: 0;
+	}
+	p {
+		font-family: 'Adlery Pro';
+		font-size: 88px;
+		color: $gold;
+		@include res(l) {
+			font-size: 64px;
+		}
+		@include res(m) {
+			font-size: 54px;
+		}
+		@include res(s) {
+			font-size: 32px;
+		}
+	}
+	span {
+		display: block;
+		padding-bottom: $pad-s;
+		font-size: 18px;
+		@include res(l) {
+			font-size: 16px;
+			padding-bottom: $pad-xs;
+		}
+	}
+}
+

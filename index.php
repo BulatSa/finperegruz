@@ -124,6 +124,66 @@
 
 				</div>
 			</div>
+
+			<div class="grid-12">
+				<div class="cases__people">
+					<div class="cases__people-title">
+						кейсы
+						<span class="h2">мы ими гордимся</span>
+					</div>
+					<div class="cases__people-list row">
+						<div class="grid-3 grid-6_m grid-12_xxs cases__people-item">
+							<img src="img/cases-people-1.png" alt="">
+							<span>Антон Буров</span>
+							<div class="cases__people-item-text">
+								<p>Финансовая перезагрузка. 1 поток</p>
+								<div class="cases__people-item-table">
+									<p><span class="goal-descr">Точка А:</span><span class="goal-summ">600 000 р.</span></p>
+									<p><span class="goal-descr">Точка Б:</span><span class="goal-summ">1 600 000 р.</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-3 grid-6_m grid-12_xxs cases__people-item">
+							<img src="img/cases-people-1.png" alt="">
+							<span>Антон Буров</span>
+							<div class="cases__people-item-text">
+								<p>Финансовая перезагрузка. 1 поток</p>
+								<div class="cases__people-item-table">
+									<p><span class="goal-descr">Точка А:</span><span class="goal-summ">600 000 р.</span></p>
+									<p><span class="goal-descr">Точка Б:</span><span class="goal-summ">1 600 000 р.</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-3 grid-6_m grid-12_xxs cases__people-item">
+							<img src="img/cases-people-1.png" alt="">
+							<span>Антон Буров</span>
+							<div class="cases__people-item-text">
+								<p>Финансовая перезагрузка. 1 поток</p>
+								<div class="cases__people-item-table">
+									<p><span class="goal-descr">Точка А:</span><span class="goal-summ">600 000 р.</span></p>
+									<p><span class="goal-descr">Точка Б:</span><span class="goal-summ">1 600 000 р.</span></p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-3 grid-6_m grid-12_xxs cases__people-item">
+							<img src="img/cases-people-1.png" alt="">
+							<span>Антон Буров</span>
+							<div class="cases__people-item-text">
+								<p>Финансовая перезагрузка. 1 поток</p>
+								<div class="cases__people-item-table">
+									<p><span class="goal-descr">Точка А:</span><span class="goal-summ">600 000 р.</span></p>
+									<p><span class="goal-descr">Точка Б:</span><span class="goal-summ">1 600 000 р.</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cases__people-action">
+						<p>Вы сможете также</p>
+						<span>Узнайте примерный результат прохождения курса “Финансовая Перезагрузка”</span>
+						<a href="#" class="btn fancy" data-src="#modal-order">узнайте больше<i class="i-right"></i></a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
