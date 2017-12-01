@@ -1,7 +1,7 @@
 /***********************
  отправка формы в php BEGIN
 ***********************/
-$(document).ready(function(){
+$(function($){
 
 	$(".ajax-form").on("submit", function(event) {
 		var form = $(this);
@@ -132,7 +132,7 @@ function init_fancy__video() {
 		}
 	});
 }
-$(document).ready(function(){
+$(function(){
 	init_fancy();
 	init_fancy__video();
 });
@@ -144,7 +144,7 @@ $(document).ready(function(){
 /***********************
  Прокрутка к секциям BEGIN
  ***********************/
-$(document).ready(function(){
+$(function($){
 	$('.scrollto').click(function () {
 		var elementClick = $(this).attr("href");
 		var destination = $(elementClick).offset().top;
@@ -173,4 +173,30 @@ $(function($){
 });
 /***********************
 faq END
+***********************/
+
+
+/***********************
+Review slider BEGIN
+***********************/
+$(function($){
+	var reviews_slider = $('.reviews-slider');
+
+	reviews_slider.flickity({
+		pageDots: false,
+		wrapAround: false,
+		selectedAttraction: 0.02,
+		friction: 0.3,
+		prevNextButtons: true,
+		cellAlign: 'left'
+	});
+
+	reviews_slider.on( 'select.flickity', function() {
+		reviews_slider.find('.review.is-selected').removeClass('past');
+		reviews_slider.find('.review.is-selected').prevAll('.review').addClass('past');
+		reviews_slider.find('.review.is-selected').nextAll('.review').removeClass('past');
+	});
+});
+/***********************
+Review slider END
 ***********************/

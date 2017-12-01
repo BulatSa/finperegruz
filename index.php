@@ -619,4 +619,44 @@
 
 </section>
 
+
+<section class="s-reviews" id="s-reviews">
+
+	<a href="#s-reviews" class="anchor scrollto">
+		<figure></figure>
+	</a>
+
+	<div class="container">
+		<div class="reviews-intro">
+			<p class="h5">отзывы</p>
+			<p class="h2">впечатления выпускников курса</p>
+			<p class="reviews-intro__descr">У&nbsp;нас каждый студент уникальный. 81%&nbsp;учеников достигают поставленных целей, сохранив навык создания капитала и&nbsp;управления деньгами на&nbsp;всю жизнь.</p>
+		</div>
+	</div>
+
+	<div class="reviews-slider__wrapper">
+		<div class="reviews-slider">
+			<div class="review">
+				<p class="h5 review__name">Юлия Катасонова</p>
+				<div class="review__frame review__frame--video">
+					<img src="/img/reviews/1.jpg" alt="1">
+					<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" class="fancy-video review__play"><i class="i-arrow-play"></i></a>
+				</div>
+				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи. Страха больше нет, у меня нет страха. Сейчас я - миллионер, у меня есть возможность помогать своим родителям. У меня есть 3 источника дохода, и они все дают плоды.</div>
+			</div>
+			<div class="review">
+				<p class="h5 review__name">Юлия Катасонова</p>
+				<div class="review__frame">
+					<img src="/img/reviews/1.jpg" alt="1">
+				</div>
+				<div class="review__text">У меня была нудная скучная жизнь, я не жила вообще! Сейчас я живу в бешеном графике, и я счастливый человек. У меня столько планов, что хватит на три жизни. Я начала просто реагировать на ситуации, которые раньше выбивали меня из колеи. Страха больше нет, у меня нет страха. Сейчас я - миллионер, у меня есть возможность помогать своим родителям. У меня есть 3 источника дохода, и они все дают плоды.</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</section>
+
+
 <?php include('footer.php'); ?>
