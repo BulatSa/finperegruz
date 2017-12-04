@@ -17,6 +17,10 @@
 		padding-bottom: $pad-s;
 		background-position: 55% 50%;
 	}
+	@include res(xs) {
+		padding-bottom: $pad-m;
+		background-position: 60% 50%;
+	}
 }
 
 .header {

@@ -39,3 +39,83 @@
 		transform: translate3d(0,100%,0);
 	}
 }
+
+.anchor-arrow {
+	position: absolute;
+	width: 130px;
+	height: 110px;
+	top: -80px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: $gold;
+	transition: color 0.3s ease;
+	overflow: hidden;
+	z-index: 20;
+	@include res(m){
+		width: 120px;
+		height: 70px;
+		top: -50px;
+	}
+	@include res(s){
+		width: 100px;
+		height: 50px;
+		top: -40px;
+	}
+	&:hover {
+		color: lighten($gold, 15%);
+		&:before, &:after {
+			background: lighten($gold, 15%);
+		}
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: -1px;
+		left: 50%;
+		width: 20px;
+		height: 2px;
+		background: $gold;
+		transition: all 0.3s ease;
+		transform: translateX(-50%) rotate(45deg);
+	}
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: -1px;
+		left: 50%;
+		width: 20px;
+		height: 2px;
+		background: $gold;
+		transition: all 0.3s ease;
+		transform: translateX(-50%) rotate(-45deg);
+	}
+	img {
+		position: relative;
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+		z-index: 1;
+	}
+	figure {
+		position: relative;
+		display: block;
+		width: 2px;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background: currentcolor;
+		animation: anchor-link infinite 1.6s ease alternate;
+		overflow: hidden;
+		z-index: 0;
+	}
+}
+
+@keyframes anchor-link {
+	0%{
+		transform: translate3d(0,-10%,0);
+	}
+	100%{
+		transform: translate3d(0,10%,0);
+	}
+}

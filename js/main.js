@@ -90,6 +90,56 @@ $(function($){
 
 
 /***********************
+ Counter BEGIN
+ ***********************/
+$(document).ready(function() {
+	function formatStr(str) {
+		str = str.replace(/(\.(.*))/g, '');
+		var arr = str.split('');
+		var str_temp = '';
+		if (str.length > 3) {
+			for (var i = arr.length - 1, j = 1; i >= 0; i--, j++) {
+				str_temp = arr[i] + str_temp;
+				if (j % 3 == 0) {
+					str_temp = ' ' + str_temp;
+				}
+			}
+			return str_temp;
+		} else {
+			return str;
+		}
+	}
+
+	function number_to(element,from,to,duration){
+		var start = new Date().getTime();
+		setTimeout(function() {
+			var now = (new Date().getTime()) - start;
+			var progress = now / duration;
+			var result = Math.floor((to - from) * progress + from);
+			var text_to_show = progress < 1 ? result : to;
+			var formated_text = formatStr(text_to_show.toString());
+			element.text(formated_text);
+			if (progress < 1) setTimeout(arguments.callee, 10);
+		}, 10);
+	}
+
+	$('.num').waypoint(function (direction) {
+		var elem_counter = $(this.element);
+		var to = elem_counter.data('num');
+		if (!elem_counter.hasClass('ended')){
+			number_to(elem_counter,0,to,1500);
+		}
+		elem_counter.addClass('ended');
+	}, {
+		offset: '80%'
+	});
+});
+/***********************
+ Counter END
+ ***********************/
+
+
+/***********************
 faq BEGIN
 ***********************/
 $(function($){
@@ -250,6 +300,8 @@ $(function($){
 	}, {
 		offset: '85%'
 	});
+
+
 });
 /***********************
  Waypoints END
