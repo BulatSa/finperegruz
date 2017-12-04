@@ -313,7 +313,6 @@ $(function ($) {
 
 		xAxis: {
 			categories: ['2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026', '2027'],
-			// categories: ['Сейчас', '', '', '', '', '5 лет', '', '', '', '', '10 лет'],
 			lineWidth: 0,
 			tickWidth: 0,
 			labels: {
@@ -346,9 +345,6 @@ $(function ($) {
 			borderColor: '#FFF',
 			borderRadius: 10,
 			borderWidth: 0,
-			// formatter: function() {
-			// 	return this.y;
-			// }
 		},
 
 		credits: {
@@ -528,11 +524,3 @@ $(function ($) {
 /***********************
  CALC END
 ***********************/
-
-
-
-
-
-
-
-
