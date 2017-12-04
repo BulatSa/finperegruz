@@ -2,11 +2,15 @@
 	min-height: 100vh;
 	padding-top: $pad-xl;
 	background: url('../img/bg-head-xl.jpg') no-repeat center center;
+	padding-bottom: 130px;
+	background-size: auto 100%;
 	@include res(l) {
 		padding-top: 0;
-		min-height: 860px;
+		min-height: 770px;
 		background-position: 50% 50%;
-		background-size: auto 100%;
+	}
+	@include res(m){
+		min-height: 860px;
 	}
 	@include res(s) {
 		min-height: 560px;
