@@ -239,3 +239,19 @@ $(function($){
 /***********************
  Link anchors END
  ***********************/
+
+
+/***********************
+ Waypoints BEGIN
+ ***********************/
+$(function($){
+	$('.anim').waypoint(function () {
+		$(this.element).toggleClass('animated');
+	}, {
+		offset: '85%'
+	});
+});
+/***********************
+ Waypoints END
+ ***********************/
+
