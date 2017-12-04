@@ -115,6 +115,7 @@
 }
 
 .header__video {
+	display: none;
 	padding-top: $pad-l;
 	text-align: right;
 	@include res(m) {
