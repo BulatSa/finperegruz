@@ -125,6 +125,31 @@
 			display: none;
 		}
 	}
+
+	&.anim{
+		.level__left{
+			transition: all 0.8s ease;
+			opacity: 0;
+			transform: translate3d(-40px,0,0);
+		}
+		.level__img{
+			transition: all 0.8s ease;
+			opacity: 0;
+			transform: scale3d(0.5,0.5,0.5);
+		}
+		.level__coin{
+			transition: all 0.8s ease;
+			opacity: 0;
+			transform: scale3d(0.5,0.5,0.5);
+		}
+	}
+
+	&.animated{
+		.level__left,.level__img,.level__coin{
+			opacity: 1;
+			transform: none;
+		}
+	}
 }
 
 .level-prices{

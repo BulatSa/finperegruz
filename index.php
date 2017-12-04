@@ -69,17 +69,17 @@
 				<div class="cases__facts-wrap">
 					<p class="cases__facts-title">результаты первого потока</p>
 					<div class="cases__facts">
-						<div class="cases__fact">
+						<div class="cases__fact anim">
 							<span>87<em>%</em></span>
 							<p>участников улучшили
 								свою финансовую ситуацию</p>
 						</div>
-						<div class="cases__fact">
+						<div class="cases__fact anim">
 							<span>71.7<em>%</em></span>
 							<p>участников уменьшили
 								свои расходы</p>
 						</div>
-						<div class="cases__fact">
+						<div class="cases__fact anim">
 							<span>43.5<em>%</em></span>
 							<p>участников уменьшили
 								свои расходы</p>
@@ -92,28 +92,28 @@
 				<div class="cases__benefits-wrap">
 					<p class="cases__benefits-title">Выпускники курса Финансовой перезагрузки достигают не только в финансовых результатов, но и выводят другие области жизни на новый уровень: </p>
 					<div class="cases__benefits">
-						<div class="cases__benefit">
+						<div class="cases__benefit anim">
 							<div class="cases__benefit-img">
 								<img src="img/icons/cases-couple.svg" alt="">
 							</div>
 							<p>8,7% улучшили ситуации
 								в сфере отношений</p>
 						</div>
-						<div class="cases__benefit">
+						<div class="cases__benefit anim">
 							<div class="cases__benefit-img">
 								<img src="img/icons/cases-clock.svg" alt="">
 							</div>
 							<p>8,7% стали эффективнее
 								в управлении временем</p>
 						</div>
-						<div class="cases__benefit">
+						<div class="cases__benefit anim">
 							<div class="cases__benefit-img">
 								<img src="img/icons/cases-hands.svg" alt="">
 							</div>
 							<p>6.5% сделали мощный скачок
 								в бизнесе/карьере</p>
 						</div>
-						<div class="cases__benefit">
+						<div class="cases__benefit anim">
 							<div class="cases__benefit-img">
 								<img src="img/icons/cases-heart.svg" alt="">
 							</div>
@@ -265,7 +265,7 @@
 
 			<div class="levels-line"></div>
 
-			<div class="level row">
+			<div class="level row anim">
 				<div class="grid-6 grid-12_m">
 					<div class="level__left">
 						<p class="h5">1 уровень</p>
@@ -339,7 +339,7 @@
 				</div>
 			</div>
 
-			<div class="level row">
+			<div class="level row anim">
 				<div class="grid-6 grid-12_m">
 					<div class="level__left">
 						<p class="h5">2 уровень</p>
@@ -423,7 +423,7 @@
 				</div>
 			</div>
 
-			<div class="level row">
+			<div class="level row anim">
 				<div class="grid-6 grid-12_m">
 					<div class="level__left">
 						<p class="h5">3 уровень</p>
@@ -502,7 +502,7 @@
 				</div>
 			</div>
 
-			<div class="level row">
+			<div class="level row anim">
 				<div class="grid-6 grid-12_m">
 					<div class="level__left">
 						<p class="h5">4 уровень</p>
@@ -610,25 +610,25 @@
 		<p>Каждый уровень обучения будет включать в себя:</p>
 
 		<div class="how-items">
-			<div class="how-item">
+			<div class="how-item anim">
 				<header>
 					<img src="/img/how/how-1.svg" alt="1" width="64" height="44">
 				</header>
 				<p>онлайн личный кабинет</p>
 			</div>
-			<div class="how-item">
+			<div class="how-item anim">
 				<header>
 					<img src="/img/how/how-2.svg" alt="1" width="62" height="62">
 				</header>
 				<p>2 занятия в неделю с&nbsp;домашним заданием</p>
 			</div>
-			<div class="how-item">
+			<div class="how-item anim">
 				<header>
 					<img src="/img/how/how-4.svg" alt="1" width="47" height="65">
 				</header>
 				<p>ежедневная поддержка от&nbsp;менторов курса</p>
 			</div>
-			<div class="how-item">
+			<div class="how-item anim">
 				<header>
 					<img src="/img/how/how-3.svg" alt="1" width="45" height="64">
 				</header>
@@ -1035,7 +1035,7 @@
 				</div>
 				<div class="grid-4 grid-6_m">
 					<div class="footer__bottom footer__bottom--right">
-						<span>Сайт разработан — </span><a href="#">Pen&Brain</a>
+						<span>Сайт разработан — </span><a href="https://penbrain.ru" target="_blank">Pen&Brain</a>
 					</div>
 				</div>
 			</div>
