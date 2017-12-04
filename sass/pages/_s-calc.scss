@@ -1,0 +1,49 @@
+.s-calc{
+	padding: 100px 0;
+	color: #FFF;
+
+	.h2{
+		margin-bottom: 1em;
+	}
+}
+
+.ranges{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+	@include res(xl){
+		margin-bottom: 0;
+	}
+}
+
+.range-block{
+	width: 380px;
+	max-width: 100%;
+	margin: 0 15px 45px 15px;
+	@include res(xl){
+		margin-bottom: 15px;
+	}
+
+	&__title{
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.15em;
+		margin-bottom: 0.5em;
+		@include res(xl){
+			font-size: 12px;
+		}
+	}
+
+	&__current{
+		font-size: 30px;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.15em;
+		margin-bottom: 0.2em;
+		@include res(xl){
+			font-size: 24px;
+		}
+	}
+}

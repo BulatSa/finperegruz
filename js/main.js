@@ -255,3 +255,284 @@ $(function($){
  Waypoints END
  ***********************/
 
+
+/***********************
+CALC BEGIN
+***********************/
+$(function ($) {
+
+	var levels_name = {
+		0: 'Без курса',
+		1: 'Финансовая Безопасность',
+		2: 'Финансовая Стабильность',
+		3: 'Финансовая Независимость',
+		4: 'Финансовая Свобода'
+	};
+
+	var percents = {
+		0: [0,0,0],
+		1: [5,10,5],
+		2: [20,20,10],
+		3: [30,40,15],
+		4: [40,40,30]
+	};
+
+	// chart
+	var chart = Highcharts.chart('chart', {
+		chart: {
+			zoomType: 'x',
+			type: 'spline',
+			backgroundColor: "#1a191f",
+			style: {
+				fontFamily: '"Proxima Nova", Arial, sans-serif;'
+			}
+		},
+
+		colors: ['#ed0049', '#0bb053', '#009fcc', '#910000', '#e4b333'],
+
+		plotOptions: {
+			spline: {
+				lineWidth: 3,
+				states: {
+					hover: {
+						lineWidth: 3,
+						marker: {
+							enabled: false
+						}
+					}
+				},
+				marker: {
+					enabled: false
+				}
+			}
+		},
+
+		title: {
+			text: null
+		},
+
+		xAxis: {
+			categories: ['2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026', '2027'],
+			// categories: ['Сейчас', '', '', '', '', '5 лет', '', '', '', '', '10 лет'],
+			lineWidth: 0,
+			tickWidth: 0,
+			labels: {
+				style: {
+					color: '#FFFFFF',
+					fontSize: '14px'
+				}
+			}
+		},
+
+		yAxis: {
+			title: {
+				text: null
+			},
+			labels: {
+				style: {
+					color: '#FFFFFF',
+					fontSize: '12px'
+				}
+			},
+			gridLineColor: "#8b765c"
+		},
+
+		legend: {
+			enabled: false
+		},
+
+		tooltip: {
+			backgroundColor: '#FFF',
+			borderColor: '#FFF',
+			borderRadius: 10,
+			borderWidth: 0,
+			// formatter: function() {
+			// 	return this.y;
+			// }
+		},
+
+		credits: {
+			enabled: false
+		}
+	});
+
+	Highcharts.setOptions({
+		lang: {
+			resetZoom: 'Сбросить'
+		}
+	});
+
+	function draw_chart(data) {
+		var seriesLength = chart.series.length;
+		for(var i = seriesLength -1; i > -1; i--) {
+			chart.series[i].remove();
+		}
+
+		for (var level = 0; level < 5; level++) {
+			chart.addSeries({name: levels_name[level], data: data[level]});
+		}
+	}
+	// chart
+
+
+	// range sliders
+	var range_1 = $(".range_1");
+	var range_2 = $(".range_2");
+	var range_3 = $(".range_3");
+	var range_4 = $(".range_4");
+	var range_1_cur = $('.range_1_cur');
+	var range_2_cur = $('.range_2_cur');
+	var range_3_cur = $('.range_3_cur');
+	var range_4_cur = $('.range_4_cur');
+
+	range_1.ionRangeSlider({
+		from: 300000,
+		grid: false,
+		min: 0,
+		max: 3000000,
+		prettify_enabled: true,
+		step: 200,
+		onStart: function (data) {
+			range_1_cur.html(data.from_pretty);
+		},
+		onChange: function (data) {
+			range_1_cur.html(data.from_pretty);
+		},
+		onFinish: function (data) {
+			calc();
+		}
+	});
+	range_2.ionRangeSlider({
+		from: 10,
+		grid: false,
+		min: 0,
+		max: 50,
+		prettify_enabled: true,
+		onStart: function (data) {
+			range_2_cur.html(data.from_pretty);
+		},
+		onChange: function (data) {
+			range_2_cur.html(data.from_pretty);
+		},
+		onFinish: function (data) {
+			calc();
+		}
+	});
+	range_3.ionRangeSlider({
+		from: 50000,
+		grid: false,
+		min: 0,
+		max: 10000000,
+		prettify_enabled: true,
+		step: 200,
+		onStart: function (data) {
+			range_3_cur.html(data.from_pretty);
+		},
+		onChange: function (data) {
+			range_3_cur.html(data.from_pretty);
+		},
+		onFinish: function (data) {
+			calc();
+		}
+	});
+	range_4.ionRangeSlider({
+		from: 8000000,
+		grid: false,
+		min: 0,
+		max: 10000000,
+		prettify_enabled: true,
+		step: 200,
+		onStart: function (data) {
+			range_4_cur.html(data.from_pretty);
+		},
+		onChange: function (data) {
+			range_4_cur.html(data.from_pretty);
+		},
+		onFinish: function (data) {
+			calc();
+		}
+	});
+
+	setTimeout(function () {
+		calc();
+	},1000);
+	// range sliders
+
+
+	// calc
+	function calc() {
+		var level,year;
+		var b4 = range_1.data("from");
+		var b5 = range_2.data("from");
+		var b6 = range_3.data("from");
+		var b7 = range_4.data("from");
+
+		// матрица доходов
+		var dohod = [];
+		for (level = 0; level < 5; level++) {
+			dohod[level] = [];
+			dohod[level][0] = 0;
+			dohod[level][1] = Math.round(b4*12*(1 + 1/100*percents[level][0]));
+
+			for (year = 2; year < 11; year++) {
+				dohod[level][year] = Math.round(dohod[level][year-1]*(1 + percents[level][0]/100));
+			}
+		}
+		// матрица доходов
+
+
+		// матрица дельты
+		var delta = [];
+		for (level = 0; level < 5; level++) {
+			delta[level] = [];
+			delta[level][0] = 0;
+
+			for (year = 1; year < 11; year++) {
+				delta[level][year] = Math.round( dohod[level][year] * ( b5/100 + percents[level][1]/100));
+			}
+		}
+		// матрица дельты
+
+
+		// матрица пред-капитала
+		var pred_kapital = [];
+		for (level = 0; level < 5; level++) {
+			pred_kapital[level] = [];
+			pred_kapital[level][0] = b6;
+
+			for (year = 1; year < 11; year++) {
+				pred_kapital[level][year] = Math.round(
+					pred_kapital[level][year-1] * (1+percents[level][2]/100) + delta[level][year] * (1 + percents[level][2]/100/3)
+				);
+			}
+		}
+		// матрица пред-капитала
+
+		// матрица капитала
+		var kapital = [];
+		for (level = 0; level < 5; level++) {
+			kapital[level] = [];
+			for (year = 0; year < 11; year++) {
+				kapital[level][year] = Math.round(
+					pred_kapital[level][year] - b7
+				);
+			}
+		}
+		// матрица капитала
+
+		draw_chart(kapital);
+	}
+	// calc
+
+});
+/***********************
+ CALC END
+***********************/
+
+
+
+
+
+
+
+
