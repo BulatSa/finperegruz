@@ -169,6 +169,9 @@
 		margin-top: 40px;
 		transition: all 0.3s ease;
 		transform: translateX(170px);
+		@include res(m) {
+			display: none;
+		}
 		&.animated {
 			//transform: translateX(170px);
 			.level__img--2 {
