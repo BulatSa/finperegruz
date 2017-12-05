@@ -1,0 +1,123 @@
+.s-calc{
+	padding: 100px 0;
+	color: #FFF;
+	@include res(m){
+		padding: 50px 0;
+	}
+
+	.h2{
+		margin-bottom: 1em;
+	}
+}
+
+.ranges{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+	@include res(xl){
+		margin-bottom: 0;
+	}
+	@include res(s){
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+}
+
+.range-block{
+	width: 380px;
+	max-width: 100%;
+	margin: 0 15px 45px 15px;
+	@include res(xl){
+		margin-bottom: 15px;
+	}
+
+	&__title{
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.15em;
+		margin-bottom: 0.5em;
+		@include res(xl){
+			font-size: 12px;
+		}
+		@include res(s){
+			font-size: 10px;
+		}
+	}
+
+	&__current{
+		font-size: 30px;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 0.15em;
+		margin-bottom: 0.2em;
+		@include res(xl){
+			font-size: 24px;
+		}
+		@include res(s){
+			font-size: 16px;
+		}
+	}
+}
+
+#chart{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+}
+
+.chart-legend{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+	@include res(s){
+		flex-wrap: wrap;
+	}
+
+	&__item{
+		padding: 0 10px;
+		font-size: 14px;
+		@include res(s){
+			width: 100%;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		span{
+			display: block;
+		}
+
+		strong{
+			display: block;
+			line-height: 1.2;
+		}
+
+		figure{
+			margin-top: 12px;
+			display: inline-block;
+			width: 60px;
+			height: 5px;
+			@include res(s){
+				margin-top: 5px;
+			}
+		}
+		
+		&:nth-child(1) figure{background: #ed0049;}
+		&:nth-child(2) figure{background: #0bb053;}
+		&:nth-child(3) figure{background: #009fcc;}
+		&:nth-child(4) figure{background: #cbd8e3;}
+		&:nth-child(5) figure{background: #e4b333;}
+	}
+}
+
+.chart-btn-wrap{
+	margin-top: 80px;
+	text-align: center;
+	@include res(m){
+		margin-top: 40px;
+	}
+}
