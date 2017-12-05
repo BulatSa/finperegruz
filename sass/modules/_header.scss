@@ -17,6 +17,10 @@
 		padding-bottom: $pad-s;
 		background-position: 55% 50%;
 	}
+	@include res(xs) {
+		padding-bottom: $pad-m;
+		background-position: 60% 50%;
+	}
 }
 
 .header {
@@ -111,6 +115,7 @@
 }
 
 .header__video {
+	display: none;
 	padding-top: $pad-l;
 	text-align: right;
 	@include res(m) {

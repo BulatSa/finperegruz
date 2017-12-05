@@ -20,6 +20,46 @@
 	color: #fff;
 }
 
+.speaker__logo {
+	position: absolute;
+	right: 0;
+	top: 90px;
+	width: 156px;
+	height: 156px;
+	overflow: hidden;
+	@include res(xl) {
+		right: 20px;
+	}
+	@include res(m) {
+		display: none;
+	}
+	img {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+}
+
+.speaker__logo-rotate {
+	animation: rotated-text infinite 6s ease;
+	@include res(m) {
+		animation: none;
+	}
+}
+
+@keyframes rotated-text {
+	0%{
+		transform: rotate(0);
+	}
+	100%{
+		transform: rotate(-360deg);
+	}
+}
+.speaker__logo-fix {}
+
 .speaker__title {
 	padding-bottom: $pad-m;
 	font-size: 14px;
