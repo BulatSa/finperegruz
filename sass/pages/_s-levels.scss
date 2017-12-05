@@ -41,8 +41,6 @@
 	height: auto;
 	pointer-events: none;
 	z-index: 10;
-	animation: coin_rotate infinite 10s linear;
-	animation-play-state: paused;
 	@include res(l) {
 		width: 90px;
 	}
@@ -53,7 +51,6 @@
 	&--fixed{
 		position: fixed;
 		top: 45% !important;
-		animation-play-state: running;
 	}
 
 	&__wrap{
@@ -67,12 +64,6 @@
 		@include res(l) {
 			width: 90px;
 		}
-	}
-}
-
-@keyframes coin_rotate {
-	to {
-		transform: rotate(-360deg);
 	}
 }
 
