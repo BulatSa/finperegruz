@@ -341,10 +341,11 @@ $(function ($) {
 		},
 
 		tooltip: {
-			backgroundColor: '#FFF',
-			borderColor: '#FFF',
-			borderRadius: 10,
-			borderWidth: 0,
+			backgroundColor: 'rgba(255,255,255,0.9)',
+			borderColor: '#bc9f7d',
+			borderRadius: 0,
+			borderWidth: 2,
+			valueSuffix: ' руб.'
 		},
 
 		credits: {
@@ -523,4 +524,24 @@ $(function ($) {
 });
 /***********************
  CALC END
+***********************/
+
+
+/***********************
+Worth stage BEGIN
+***********************/
+$(function($){
+	$('.js-worth-btn').on('click',function () {
+		$('.worth-stage').addClass('active');
+		$(this).addClass('disabled');
+		$('.worth-bg--blur').addClass('disabled');
+
+		setTimeout(function () {
+			var destination = $('#worth-stage').offset().top - 60;
+			$('html,body').stop().animate({scrollTop:destination}, 1000);
+		},1000)
+	})
+});
+/***********************
+Worth stage END
 ***********************/

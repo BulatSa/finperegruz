@@ -58,10 +58,6 @@
 		}
 	}
 
-	&--white {
-		background: #fff;
-	}
-
 	.icon-doc{
 		line-height: 0;
 		display: inline;
@@ -92,5 +88,26 @@ button::-moz-focus-inner {
 
 	&:active{
 		opacity: 0.8;
+	}
+}
+
+.btn--white{
+	background: #FFF;
+	color: $gold;
+	border: none;
+	box-shadow: 0 0 0 8px rgba(255,255,255,0.4);
+
+	&:hover,&:focus{
+		outline: none;
+		background-color: #FFF;
+		border: none;
+		box-shadow: 0 0 0 12px transparentize($gold,0.7);
+	}
+
+	&:active{
+		outline: none;
+		background-color: #FFF;
+		border: none;
+		box-shadow: 0 0 0 4px transparentize($gold,0.2 );
 	}
 }
