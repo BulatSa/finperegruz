@@ -301,43 +301,32 @@ $(function($){
 		offset: '85%'
 	});
 
-	/*$('#coin-fixed-place').waypoint(function () {
-		$('#coin-fixed-place img').toggleClass('animated');
-	}, {
-		offset: '40%'
-	});
+	var coin = $('.levels-coin');
 
-	$('#coin-fixed-place-end').waypoint(function () {
-		$('#coin-fixed-place img').toggleClass('animated');
-		$('#coin-fixed').css({
-			//'position': 'absolute',
-			'top': this.triggerPoint
-		});
-		console.log(this.triggerPoint);
-	}, {
-		offset: '70%'
-	});
-
-	/*var inview = new Waypoint.Inview({
-		element: $('#coin-fixed-place')[0],
-		enter: function(direction) {
-			console.log('Вошли в начало зоны ' + direction);
-			$('#coin-fixed-place img').addClass('animated');
-		},
-		entered: function(direction) {
-			console.log('Вошли в конец зоны ' + direction);
-			$('#coin-fixed-place img').removeClass('animated');
-		},
-		exit: function(direction) {
-			console.log('Вышли из начала зоны ' + direction);
-			if (direction == 'up') {
-				$('#coin-fixed-place img').addClass('animated');
-			}
-		},
-		exited: function(direction) {
-			console.log('Вышли из конца зоны ' + direction)
+	$('.levels-coin__wrap').waypoint(function (direction) {
+		if (direction == 'down') {
+			coin.addClass('levels-coin--fixed');
+		} else {
+			coin.removeClass('levels-coin--fixed');
 		}
-	});*/
+	}, {
+		offset: '45%'
+	});
+
+	$('.levels-coin__wrap').waypoint(function (direction) {
+		var top_coin = this.element.clientHeight - $('.level--last').outerHeight();
+		if (direction == 'down') {
+			coin.css('top',top_coin);
+			coin.removeClass('levels-coin--fixed');
+		} else {
+			coin.css('top','');
+			coin.addClass('levels-coin--fixed');
+		}
+	}, {
+		offset: function() {
+			return (-this.element.clientHeight + $('.level--last').outerHeight() + $(window).outerHeight()/100*45)
+		}
+	});
 });
 /***********************
  Waypoints END
