@@ -274,7 +274,7 @@
 			margin-bottom: $pad-xxs;
 		}
 	}
-	&>span {
+	&>a {
 		display: inline-block;
 		padding-bottom: $pad-xxs;
 		font-size: 18px;
@@ -293,7 +293,7 @@
 	.goal-descr {
 		display: inline-block;
 		width: 48%;
-		padding-right: 20px;
+		padding-right: 15px;
 		font-size: 14px;
 		text-align: right;
 		font-weight: normal;
