@@ -365,7 +365,7 @@ $(function ($) {
 			}
 		},
 
-		colors: ['#ed0049', '#0bb053', '#009fcc', '#910000', '#e4b333'],
+		colors: ['#ed0049', '#0bb053', '#009fcc', '#cbd8e3', '#e4b333'],
 
 		plotOptions: {
 			spline: {
