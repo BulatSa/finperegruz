@@ -1,4 +1,46 @@
 /***********************
+ отправка формы в php BEGIN
+ ***********************/
+$(function($){
+
+	$(".validate-form").on("submit", function(event) {
+		var form = $(this);
+		var send = true;
+		event.preventDefault();
+
+		$(this).find("[data-req='true']").each(function(){
+			if ($(this).val() === "") {
+				$(this).addClass('error');
+				send = false;
+			}
+			if ($(this).is('select')){
+				if ($(this).val() === null) {
+					$(this).addClass('error');
+					send = false;
+				}
+			}
+			if ($(this).is('input[type="checkbox"]')){
+				if ($(this).prop('checked') !== true) {
+					$(this).addClass('error');
+					send = false;
+				}
+			}
+		});
+
+		$(this).find("[data-req='true']").on('focus', function(){
+			$(this).removeClass('error');
+		});
+
+		if (send === true) {
+			form.get(0).submit();
+		}
+	});
+});
+/***********************
+ отправка формы в php END
+ ***********************/
+
+/***********************
 Input mask BEGIN
 ***********************/
 $(function($){
@@ -12,7 +54,35 @@ Input mask END
 /***********************
  fancybox BEGIN
  ***********************/
+
+function choose_level(index) {
+	$('#modal-order .style-radio').removeClass('active');
+	$('.style-radio[data-level='+index+']').addClass('active');
+	$('.modal-form').removeClass('active');
+	$('.modal-form--'+index).addClass('active');
+}
+
+$(function($){
+	$('#modal-order .style-radio').on('click touchstart',function () {
+		var index = $(this).data('level');
+		choose_level(index);
+	})
+});
+
 function init_fancy() {
+	$('.fancy-order').fancybox({
+		fullScreen: false,
+		slideShow: false,
+		thumbs: false,
+		transitionEffect : "slide",
+		autoFocus : false,
+		backFocus : false,
+		animationDuration : 400,
+		afterLoad: function( instance, current ) {
+			var this_level = $(current.opts.$orig).data('level');
+			choose_level(this_level);
+		}
+	});
 	$('.fancy').fancybox({
 		fullScreen: false,
 		slideShow: false,
