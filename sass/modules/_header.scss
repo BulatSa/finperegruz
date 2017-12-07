@@ -3,7 +3,9 @@
 	padding-top: $pad-xl;
 	background: url('../img/bg-head-xl.jpg') no-repeat center center;
 	padding-bottom: 130px;
-	background-size: auto 100%;
+	@include res(xl){
+		background-size: auto 100%;
+	}
 	@include res(l) {
 		padding-top: 0;
 		min-height: 770px;
