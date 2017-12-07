@@ -686,7 +686,11 @@ $(function($){
 		setTimeout(function () {
 			var destination = $('#worth-stage').offset().top - 60;
 			$('html,body').stop().animate({scrollTop:destination}, 1000);
-		},1000)
+		},1000);
+
+		$(".worth-item").hover(function() {
+			$(".worth-item.active").removeClass('active');
+		});
 	})
 });
 /***********************
