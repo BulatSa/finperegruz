@@ -34,6 +34,11 @@ input[type="text"],input[type="tel"],input[type="email"],input[type="password"],
 			opacity: 0;
 		}
 	}
+
+	&.error{
+		border-color: #de5a16;
+		background: #ffeaea;
+	}
 }
 
 
@@ -65,7 +70,7 @@ input[type="text"],input[type="tel"],input[type="email"],input[type="password"],
 		}
 	}
 
-	span{
+	&__label{
 		display: block;
 		position: relative;
 		padding-left: 30px;
@@ -100,3 +105,86 @@ input[type="text"],input[type="tel"],input[type="email"],input[type="password"],
 	}
 }
 //style-checkbox
+
+
+//style-radio
+.style-radio{
+	display: block;
+	position: relative;
+	cursor: pointer;
+	font-size: 14px;
+
+	&.active{
+		.style-radio__label{
+			&:before{
+				background: $gold;
+			}
+			&:after{
+				opacity: 1;
+			}
+		}
+
+	}
+
+	&__label{
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		padding-left: 30px;
+		@include res(xs){
+			font-size: 12px;
+		}
+
+		&:before{
+			content: '';
+			width: 20px;
+			height: 20px;
+			border: 2px solid $gold;
+			border-radius: 50%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			transition: all 0.3s ease;
+		}
+
+		&:after{
+			content: '';
+			width: 8px;
+			height: 18px;
+			border-bottom: 2px solid #000;
+			border-right: 2px solid #000;
+			transform: rotate(45deg);
+			position: absolute;
+			left: 8px;
+			top: -4px;
+			z-index: 2;
+			opacity: 0;
+			transition: opacity 0.3s ease;
+		}
+
+		strong{
+			color: $gold;
+			font-weight: bold;
+			font-size: 20px;
+			white-space: nowrap;
+			@include res(xs){
+				font-size: 16px;
+			}
+
+			.rub{
+				margin-left: 5px;
+			}
+		}
+	}
+}
+//style-radio
+
+//modal-form
+.modal-form{
+	display: none;
+
+	&.active{
+		display: block;
+	}
+}
+//modal-form

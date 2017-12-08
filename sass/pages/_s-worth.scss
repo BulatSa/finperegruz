@@ -146,6 +146,21 @@
 				opacity: 1;
 				transform: none;
 			}
+
+			&.active{
+				.worth-item__pop{
+					@media (min-width: 1200px) {
+						opacity: 1;
+						visibility: visible;
+						transform: translate3d(-50%, 0, 0);
+					}
+				}
+				figure{
+					&:after{
+						animation-play-state: paused;
+					}
+				}
+			}
 		}
 	}
 
@@ -162,6 +177,7 @@
 	@include res(xs){
 		width: 100%;
 	}
+
 
 	&:hover{
 		.worth-item__pop{
@@ -196,8 +212,8 @@
 
 		&:after{
 			content: '';
-			width: 11px;
-			height: 11px;
+			width: 16px;
+			height: 16px;
 			border-radius: 50%;
 			background: #fcec00;
 			position: absolute;
